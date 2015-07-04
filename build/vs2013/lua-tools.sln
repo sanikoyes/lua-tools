@@ -24,6 +24,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzlib", "3rd\libzlib.vcxp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cjson", "src\lua-cjson.vcxproj", "{91D7A1F7-88AB-499D-8075-626A45DADC8B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lfs", "src\luafilesystem.vcxproj", "{9B5DB862-43FE-446D-AB6C-075E7203091B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -58,6 +60,10 @@ Global
 		{91D7A1F7-88AB-499D-8075-626A45DADC8B}.Debug|Win32.Build.0 = Debug|Win32
 		{91D7A1F7-88AB-499D-8075-626A45DADC8B}.Release|Win32.ActiveCfg = Release|Win32
 		{91D7A1F7-88AB-499D-8075-626A45DADC8B}.Release|Win32.Build.0 = Release|Win32
+		{9B5DB862-43FE-446D-AB6C-075E7203091B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B5DB862-43FE-446D-AB6C-075E7203091B}.Debug|Win32.Build.0 = Debug|Win32
+		{9B5DB862-43FE-446D-AB6C-075E7203091B}.Release|Win32.ActiveCfg = Release|Win32
+		{9B5DB862-43FE-446D-AB6C-075E7203091B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,5 +76,6 @@ Global
 		{4EDB61C8-AECE-4095-9840-16527AAA3E53} = {429B9D4C-AF98-42F0-8DDD-6A05C9972B98}
 		{270E2A2F-E33A-4BA1-947F-61504CC344E0} = {FB35A9C2-CD69-4366-902E-D83715EA850D}
 		{91D7A1F7-88AB-499D-8075-626A45DADC8B} = {429B9D4C-AF98-42F0-8DDD-6A05C9972B98}
+		{9B5DB862-43FE-446D-AB6C-075E7203091B} = {429B9D4C-AF98-42F0-8DDD-6A05C9972B98}
 	EndGlobalSection
 EndGlobal
