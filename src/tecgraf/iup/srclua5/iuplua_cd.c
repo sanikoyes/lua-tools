@@ -70,7 +70,7 @@ int cdluaiup_open (lua_State *L)
   return 1;
 }
 
-int luaopen_iupluacd(lua_State* L)
+int luaopen_iuplua_cd(lua_State* L)
 {
   return cdluaiup_open(L);
 }

@@ -1,0 +1,1203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\3rd\liblua.vcxproj">
+      <Project>{c2b445cf-0efa-43e9-bd78-b99637a2f078}</Project>
+    </ProjectReference>
+    <ProjectReference Include="cdlua.vcxproj">
+      <Project>{7e095d1b-f7bc-46bd-9731-02e758f9273d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="imlua.vcxproj">
+      <Project>{c7e0cbf0-c629-45ba-8e75-8cfdd2139b9a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\src\tecgraf\iup\srcconsole\lh\console5.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srcconsole\lh\indent.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\backgroundbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\button.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\canvas.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\cbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\cells.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\clipboard.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\colorbar.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\colorbrowser.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\colordlg.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\constants.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\detachbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\dial.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\dialog.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\expander.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\filedlg.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\fill.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\flatbutton.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\fontdlg.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\frame.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gauge.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glbutton.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glcanvas.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glcanvasbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glexpander.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glframe.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gllabel.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gllink.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glprogressbar.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glscrollbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glseparator.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glsizebox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glsubcanvas.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gltoggle.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glval.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gridbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\hbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\image.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\imagergb.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\imagergba.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\item.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\iuplua.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\iup_config.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\label.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\link.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\list.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\matrix.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\matrixex.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\matrixlist.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\menu.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\messagedlg.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\mgllabel.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\mglplot.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\multiline.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\normalizer.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\olecontrol.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\plot.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\pplot.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\progressbar.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\progressdlg.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\radio.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\sbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\scintilla.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\scrollbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\separator.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\spin.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\spinbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\split.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\submenu.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\tabs.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\text.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\timer.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\toggle.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\tree.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\tuioclient.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\user.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\val.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\vbox.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\webbrowser.lh" />
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\zbox.lh" />
+    <None Include="iuplua.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcb.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcbox.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcbs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcells.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcolorbar.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcontrols.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupdef.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupdial.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupgauge.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupgc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupgetparam.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupgl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupglcontrols.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupim.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupkey.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluacontrols.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluagl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluaglcontrols.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluaim.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluamatrixex.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluaole.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluatuio.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluaweb.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua_mglplot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua_plot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua_pplot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua_scintilla.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupmask.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupmatrix.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupmatrixex.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupole.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupsbox.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupspin.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuptabs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuptree.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuptuio.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupval.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupweb.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_class_cbs.hpp" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_config.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_mglplot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_plot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_pplot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_scintilla.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccd\iup_cdutil.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcconsole\lprefix53.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\color\iup_colorhsi.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_controls.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_aux.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_cd.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_colres.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_def.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_draw.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_edit.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_getset.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_key.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mark.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mem.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mouse.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_numlc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_scroll.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftconfig.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftheader.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftmodule.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftoption.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftstdlib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\freetype.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ft2build.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftadvanc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftbbox.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftbdf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftbitmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftcache.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftchapters.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftcid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\fterrdef.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\fterrors.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftgasp.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftglyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftgxval.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftgzip.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftimage.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftincrem.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftlcdfil.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftlist.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftlzw.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftmac.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftmm.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftmodapi.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftmoderr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftotval.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftoutln.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftpfr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftrender.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftsizes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftsnames.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftstroke.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftsynth.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftsystem.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\fttrigon.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\fttypes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftwinfnt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftxf86.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\t1tables.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ttnameid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\tttables.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\tttags.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ttunpat.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBBox.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBitmapGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBuffer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBufferFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBufferGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTExtrdGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\ftgl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLBitmapFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLExtrdFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLOutlineFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLPixmapFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLPolygonFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLTextureFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTLayout.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTOutlineGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTPixmapGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTPoint.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTPolyGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTSimpleLayout.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTTextureGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glcontrols.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gldraw.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glfont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glicon.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glimage.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glscrollbars.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glsubcanvas.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmaps.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmaps8.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmapsgtk.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_icons.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_icons8.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logos.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logos8.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logosw32.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_controls.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glcontrols.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srclua5\il.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iup_matrixex.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\abstract.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\addon.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\base.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\base_cf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\canvas.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\canvas_cf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\canvas_wnd.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\config.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\cont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\data.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\datac.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\datac_cf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\data_cf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\define.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\dllexport.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\eval.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\evalc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\fit.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\font.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\mgl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\mgl_cf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\opengl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\other.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\parser.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\pde.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\plot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\prim.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\surf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\thread.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\type.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\vect.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\volume.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\wnd.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\cont.hpp" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\interp.hpp" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\s_hull\s_hull_pro.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\zlib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tAmbientProperties.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tDispatch.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tLegacy.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleClientSite.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleControlSite.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleHandler.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleInPlaceFrame.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleInPlaceSite.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcplot\iup_plot_ctrl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcpplot\iupPPlot.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcpplot\iuppplot.hpp" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcpplot\iupPPlotInteraction.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\Converter.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\scintilla-marshal.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\ILexer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\Platform.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\SciLexer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\Scintilla.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\ScintillaWidget.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\Accessor.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\CharacterCategory.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\CharacterSet.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexAccessor.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerBase.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerModule.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerNoExceptions.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerSimple.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\OptionSet.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\PropSetSimple.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\SparseState.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\StringCopy.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\StyleContext.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\SubStyles.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\WordList.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\AutoComplete.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CallTip.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CaseConvert.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CaseFolder.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Catalogue.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CellBuffer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CharClassify.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ContractionState.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Decoration.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Document.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\EditModel.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Editor.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\EditView.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ExternalLexer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\FontQuality.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Indicator.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\KeyMap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\LineMarker.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\MarginView.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Partitioning.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\PerLine.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\PositionCache.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\RESearch.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\RunStyles.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ScintillaBase.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Selection.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\SplitVector.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Style.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\UnicodeFromUTF8.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\UniConversion.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ViewStyle.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\XPM.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\win32\PlatWin.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\IpEndpointName.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\NetworkingUtils.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\PacketListener.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\TimerListener.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\UdpSocket.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\MessageMappingOscPacketListener.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscException.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscHostEndianness.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscOutboundPacketStream.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscPacketListener.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscPrintReceivedElements.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscReceivedElements.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscTypes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioClient.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioContainer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioCursor.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioListener.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioObject.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioPoint.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioServer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioTime.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcweb\iup_webbrowser.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_drv.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_array.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_assert.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_attrib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_box.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_button.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_canvas.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_childtree.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_class.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_classbase.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_dialog.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_dlglist.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_draw.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_drv.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_drvfont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_drvinfo.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_focus.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_frame.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_func.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_globalattrib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_image.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_key.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_label.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_layout.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_ledlex.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_linefile.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_list.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_mask.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_maskmatch.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_maskparse.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_menu.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_names.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_normalizer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_object.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_predialogs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_progressbar.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_register.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_stdcontrols.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_str.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_strmessage.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_table.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_tabs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_text.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_timer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_toggle.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_tree.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_val.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_brush.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_draw.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_drv.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_handle.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_info.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_str.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccd\iup_cd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccd\iup_cdutil.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcconsole\iup_lua53.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\color\iup_colorbrowser.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\color\iup_colorbrowserdlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\color\iup_colorhsi.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_cells.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_colorbar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_controls.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_dial.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_gauge.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_matrixlist.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_oldmask.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_oldtabs.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_oldval.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmatrix.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_aux.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_colres.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_draw.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_edit.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_ex.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_getset.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_key.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mark.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mem.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mouse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_numlc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_scroll.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glbutton.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glcanvasbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glcontrols.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gldraw.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glexpander.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glfont.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glframe.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glicon.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glimage.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gllabel.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gllink.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glprogressbar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glscrollbars.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glscrollbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glseparator.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glsizebox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glsubcanvas.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gltoggle.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glval.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcgl\iup_glcanvas_win.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_image_library.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmaps.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmaps8.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmapsgtk.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_icons.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_icons8.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logos.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logos8.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logosw32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcim\iup_im.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_cells.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_colorbar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_colorbrowser.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_dial.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_gauge.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_glcanvas.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_matrix.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_matrixex.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_matrixlist.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_mgllabel.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_mglplot.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_olecontrol.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_plot.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_pplot.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_scintilla.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_tuioclient.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_webbrowser.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_controls.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_glcanvas.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_mask.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_matrixex_aux.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_matrix_aux.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_mglplot.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_plot.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_pplot.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_backgroundbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_button.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_canvas.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_cbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_clipboard.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_colordlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_detachbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_dialog.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_expander.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_filedlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_fill.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_flatbutton.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_fontdlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_frame.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_gridbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_hbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_image.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_imagergb.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_imagergba.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_item.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_label.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_link.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_list.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_menu.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_messagedlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_multiline.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_normalizer.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_progressbar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_progressdlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_radio.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_sbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_scrollbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_separator.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_spin.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_spinbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_split.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_submenu.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_tabs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_text.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_timer.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_toggle.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_tree.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_user.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_val.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_vbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_zbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glbutton.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glcanvasbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glexpander.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glframe.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_gllabel.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_gllink.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glprogressbar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glscrollbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glseparator.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glsizebox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glsubcanvas.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_gltoggle.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glval.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\iuplua_glcontrols.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_api.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_cd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_config.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_getcolor.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_getparam.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_im.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_imglib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_scanf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_tree_aux.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_busy.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_clipboard.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_copy.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_export.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_find.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_sort.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_undo.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_units.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_visible.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iup_matrixex.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\iup_mglplot.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\addon.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\axis.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\base.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\base_cf.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\canvas.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\canvas_cf.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\complex.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\complex_ex.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\complex_io.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\cont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\crust.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data_ex.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data_gr.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data_io.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data_png.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\eval.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\evalc.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\evalp.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\exec.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\export.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\export_2d.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\export_3d.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\fft.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\fit.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\font.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\obj.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\opengl.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\other.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\parser.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\pde.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\pixel.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\plot.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\prim.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\surf.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\s_hull\s_hull_pro.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\tex_table.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\vect.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\volume.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\window.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\iup_olecontrol.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tAmbientProperties.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tDispatch.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tLegacy.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleClientSite.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleControlSite.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleHandler.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleInPlaceFrame.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleInPlaceSite.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlot.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlotCalc.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlotDraw.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlotTick.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iup_plot.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iup_plot_attrib.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcpplot\iupPPlot.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcpplot\iupPPlotInteraction.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcpplot\iup_pplot.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\PlatGTK.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\scintilla-marshal.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\ScintillaGTK.cxx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_annotation.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_autocompletion.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_bracelight.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_clipboard.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_cursor.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_folding.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_lexer.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_margin.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_markers.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_overtype.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_scrolling.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_searching.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_selection.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_style.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_tab.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_text.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_whitespace.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_wordwrap.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iup_scintilla.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexA68k.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAbaqus.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAda.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAPDL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAsm.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAsn1.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexASY.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAU3.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAVE.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAVS.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBaan.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBash.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBasic.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBibTeX.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBullant.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCaml.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCLW.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCmake.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCOBOL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCoffeeScript.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexConf.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCPP.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCrontab.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCsound.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCSS.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexD.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexDMAP.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexDMIS.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexECL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexEiffel.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexErlang.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexEScript.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexFlagship.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexForth.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexFortran.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexGAP.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexGui4Cli.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexHaskell.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexHex.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexHTML.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexInno.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexKix.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexKVIrc.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexLaTeX.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexLisp.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexLout.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexLua.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMagik.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMarkdown.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMatlab.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMetapost.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMMIXAL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexModula.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMPT.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMSSQL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMySQL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexNimrod.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexNsis.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexOpal.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexOScript.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexOthers.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPascal.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPB.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPerl.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPLM.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPO.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPOV.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPowerPro.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPowerShell.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexProgress.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPS.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPython.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexR.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexRebol.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexRegistry.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexRuby.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexRust.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexScriptol.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSmalltalk.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSML.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSorcus.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSpecman.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSpice.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSQL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSTTXT.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTACL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTADS3.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTAL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTCL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTCMD.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTeX.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTxt2tags.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexVB.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexVerilog.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexVHDL.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexVisualProlog.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexYAML.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\Accessor.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\CharacterCategory.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\CharacterSet.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerBase.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerModule.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerNoExceptions.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerSimple.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\PropSetSimple.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\StyleContext.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\WordList.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\AutoComplete.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CallTip.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CaseConvert.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CaseFolder.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Catalogue.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CellBuffer.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CharClassify.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ContractionState.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Decoration.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Document.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\EditModel.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Editor.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\EditView.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ExternalLexer.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Indicator.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\KeyMap.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\LineMarker.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\MarginView.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\PerLine.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\PositionCache.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\RESearch.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\RunStyles.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ScintillaBase.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Selection.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Style.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\UniConversion.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ViewStyle.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\XPM.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\win32\CheckD2D.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\win32\PlatWin.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\win32\ScintillaWin.cxx" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\iup_tuio.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\IpEndpointName.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\posix\NetworkingUtils.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\posix\UdpSocket.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\win32\NetworkingUtils.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\win32\UdpSocket.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscOutboundPacketStream.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscPrintReceivedElements.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscReceivedElements.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscTypes.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioClient.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioServer.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioTime.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcview\iup_view.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcweb\iupgtk_webbrowser.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcweb\iupwin_webbrowser.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcweb\iup_webbrowser.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_button.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_canvas.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_clipboard.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_colordlg.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_common.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_dialog.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_dragdrop.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_draw.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_draw_cairo.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_filedlg.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_focus.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_font.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_fontdlg.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_frame.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_globalattrib.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_help.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_image.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_key.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_label.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_list.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_loop.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_menu.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_messagedlg.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_open.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_progressbar.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_str.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_tabs.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_text.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_timer.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_tips.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_toggle.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_tree.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_val.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_array.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_assert.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_attrib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_backgroundbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_box.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_button.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_callback.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_canvas.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_cbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_childtree.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_class.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_classattrib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_classbase.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_colordlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_config.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_detachbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_dialog.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_dlglist.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_expander.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_filedlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_fill.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_flatbutton.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_focus.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_font.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_fontdlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_frame.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_func.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_getparam.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_globalattrib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_gridbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_hbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_image.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_key.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_label.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_layout.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_layoutdlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_ledlex.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_ledparse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_linefile.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_link.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_list.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_mask.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_maskmatch.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_maskparse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_menu.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_messagedlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_names.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_normalizer.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_object.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_open.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_predialogs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_progressbar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_progressdlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_radio.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_recplay.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_register.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_sbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_scanf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_scrollbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_show.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_spin.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_split.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_str.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_strmessage.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_table.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_tabs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_text.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_timer.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_toggle.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_tree.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_user.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_val.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_vbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_zbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwindows_help.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwindows_info.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwindows_main.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_brush.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_button.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_canvas.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_clipboard.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_colordlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_common.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_dialog.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_dragdrop.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_draw.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_filedlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_focus.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_font.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_fontdlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_frame.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_globalattrib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_handle.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_image.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_info.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_key.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_label.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_list.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_loop.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_menu.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_messagedlg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_open.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_progressbar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_str.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_tabs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_text.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_timer.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_tips.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_toggle.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_touch.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_tree.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_val.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{91073875-3E94-4DAF-83D6-CD8DA9985CA2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>lualib</RootNamespace>
+    <ProjectName>iuplua</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\output\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\output\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>IUPLUA_USELH;_IUP_PPLOT_;WIN32;LUA_BUILD_AS_DLL;CD_NO_OLD_INTERFACE;IUP_ASSERT;UNICODE;STATIC_BUILD;SCI_LEXER;GTK_DISABLE_DEPRECATED;SCI_NAMESPACE;FTGL_LIBRARY_STATIC;_DEBUG;_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\src\tecgraf\iup\include;$(SolutionDir)..\..\src\tecgraf\im\include;$(SolutionDir)..\..\src\tecgraf\cd\include;$(SolutionDir)..\..\src\tecgraf\iup\src;$(SolutionDir)..\..\src\tecgraf\iup\srccd;$(SolutionDir)..\..\src\tecgraf\iup\srccontrols;$(SolutionDir)..\..\src\tecgraf\iup\srcscintilla\include;$(SolutionDir)..\..\src\tecgraf\iup\srcscintilla\src;$(SolutionDir)..\..\src\tecgraf\iup\srcscintilla\lexlib;$(SolutionDir)..\..\src\tecgraf\iup\srcglcontrols;$(SolutionDir)..\..\src\tecgraf\iup\srcglcontrols\freetype;$(SolutionDir)..\..\src\tecgraf\iup\srclua5;$(SolutionDir)..\..\src\tecgraf\iup\srclua5\lh;$(SolutionDir)..\..\src\tecgraf\iup\srctuio\tuio;$(SolutionDir)..\..\src\tecgraf\iup\srctuio\oscpack;$(SolutionDir)..\..\src\tecgraf\iup\srcmglplot;$(SolutionDir)..\..\src\tecgraf\prebuilt\include;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\atk-1.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\cairo;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\gdk-pixbuf-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\glib-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\gtk-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\pango-1.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)..\..\tool\bin\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>$(SolutionDir)src\tecgraf\iuplua.def</ModuleDefinitionFile>
+      <AdditionalDependencies>winmm.lib;imm32.lib;ws2_32.lib;comctl32.lib;opengl32.lib;atk-1.0.lib;cairo.lib;gdk_pixbuf-2.0.lib;gdk-win32-2.0.lib;glib-2.0.lib;gmodule-2.0.lib;gobject-2.0.lib;pango-1.0.lib;pangocairo-1.0.lib;pangoft2-1.0.lib;pangowin32-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\src\tecgraf\prebuilt\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>IUPLUA_USELH;_IUP_PPLOT_;WIN32;LUA_BUILD_AS_DLL;CD_NO_OLD_INTERFACE;IUP_ASSERT;UNICODE;STATIC_BUILD;SCI_LEXER;GTK_DISABLE_DEPRECATED;SCI_NAMESPACE;FTGL_LIBRARY_STATIC;NDEBUG;_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\src\tecgraf\iup\include;$(SolutionDir)..\..\src\tecgraf\im\include;$(SolutionDir)..\..\src\tecgraf\cd\include;$(SolutionDir)..\..\src\tecgraf\iup\src;$(SolutionDir)..\..\src\tecgraf\iup\srccd;$(SolutionDir)..\..\src\tecgraf\iup\srccontrols;$(SolutionDir)..\..\src\tecgraf\iup\srcscintilla\include;$(SolutionDir)..\..\src\tecgraf\iup\srcscintilla\src;$(SolutionDir)..\..\src\tecgraf\iup\srcscintilla\lexlib;$(SolutionDir)..\..\src\tecgraf\iup\srcglcontrols;$(SolutionDir)..\..\src\tecgraf\iup\srcglcontrols\freetype;$(SolutionDir)..\..\src\tecgraf\iup\srclua5;$(SolutionDir)..\..\src\tecgraf\iup\srclua5\lh;$(SolutionDir)..\..\src\tecgraf\iup\srctuio\tuio;$(SolutionDir)..\..\src\tecgraf\iup\srctuio\oscpack;$(SolutionDir)..\..\src\tecgraf\iup\srcmglplot;$(SolutionDir)..\..\src\tecgraf\prebuilt\include;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\atk-1.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\cairo;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\gdk-pixbuf-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\glib-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\gtk-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\pango-1.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(SolutionDir)..\..\tool\bin\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>$(SolutionDir)src\tecgraf\iuplua.def</ModuleDefinitionFile>
+      <AdditionalDependencies>winmm.lib;imm32.lib;ws2_32.lib;comctl32.lib;opengl32.lib;atk-1.0.lib;cairo.lib;gdk_pixbuf-2.0.lib;gdk-win32-2.0.lib;glib-2.0.lib;gmodule-2.0.lib;gobject-2.0.lib;pango-1.0.lib;pangocairo-1.0.lib;pangoft2-1.0.lib;pangowin32-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\src\tecgraf\prebuilt\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

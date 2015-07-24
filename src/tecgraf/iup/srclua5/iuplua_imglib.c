@@ -32,7 +32,7 @@ static int iupluaimglib_open (lua_State *L)
   return 0; /* nothing in stack */
 }
 
-int luaopen_iupluaimglib(lua_State* L)
+int luaopen_iuplua_imglib(lua_State* L)
 {
   return iupluaimglib_open(L);
 }

@@ -12,3 +12,25 @@ EXPORTS
 	imlua_pushimage
 	imImageCreate
 	imImageIsBitmap
+	imCounterSetCallback
+	imColorEncode
+	imFileWriteImageInfo
+	imImageAddAlpha
+	imImageSetPalette
+	imImageGetAttribute
+	imFileGetPalette
+	imFileReadImageData
+	imFileSetAttribute
+	imFileClose
+	imFileOpen
+	imColorModeToBitmap
+	imImageDataSize
+	imFileSetPalette
+	imFileReadImageInfo
+	imFileGetAttribute
+	imFileWriteImageData
+	imFileNew
+	imColorDecode
+	imFileSetInfo
+	imFileOpenRaw
+	imConvertPacking

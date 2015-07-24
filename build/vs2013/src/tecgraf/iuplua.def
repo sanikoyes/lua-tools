@@ -1,0 +1,7 @@
+EXPORTS
+	luaopen_iuplua
+	luaopen_iuplua_im
+	luaopen_iuplua_cd
+	luaopen_iuplua_imglib
+
+

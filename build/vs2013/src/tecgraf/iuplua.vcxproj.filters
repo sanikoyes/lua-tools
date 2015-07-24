@@ -1,0 +1,3033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source files\include">
+      <UniqueIdentifier>{3c7532ae-c8d5-4eed-ad76-00eba9610dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\src">
+      <UniqueIdentifier>{e962a597-3593-4a7b-8c01-fdd2362ad28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\src\gtk">
+      <UniqueIdentifier>{89117a7e-4c01-4e2a-940b-4b7907b9d0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\src\win">
+      <UniqueIdentifier>{1a7d7c85-b59b-47db-82fe-a7cf7ed0a980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srccd">
+      <UniqueIdentifier>{69198c79-48a3-4bb5-a3fd-c0f11e8b6558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcconsole">
+      <UniqueIdentifier>{2b6588fe-aad9-48b5-a121-61d0edbc22b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srccontrols">
+      <UniqueIdentifier>{b33a1ad7-5c60-4512-9990-569115b50ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srccontrols\color">
+      <UniqueIdentifier>{2ed38c7e-2c5f-4c39-bb01-91c55db07a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srccontrols\matrix">
+      <UniqueIdentifier>{f68276b2-5590-4414-bd67-14fc9ff1a252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcconsole\lh">
+      <UniqueIdentifier>{a6092528-10a0-4bb9-a4c1-2ab0a5f754a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcgl">
+      <UniqueIdentifier>{0b016c57-f1e9-4ef9-bb9a-e13e514a94ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcglcontrols">
+      <UniqueIdentifier>{bda37f19-54e3-4a18-9fa6-ea3316afd5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcglcontrols\FTGL">
+      <UniqueIdentifier>{63837d6d-dbd4-497d-a03a-1640e2323fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcglcontrols\freetype">
+      <UniqueIdentifier>{8be3e80a-3a3d-41bf-b462-f3627eaf83a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcglcontrols\freetype\config">
+      <UniqueIdentifier>{28815e3f-061a-41d5-ac06-30468d099b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcim">
+      <UniqueIdentifier>{5decb5a5-b9f1-4775-aa80-07b0763af423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcimglib">
+      <UniqueIdentifier>{cbcd718f-93a5-4593-a6be-35cdba1bfdb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srclua5">
+      <UniqueIdentifier>{b1f86818-3822-4b72-a728-3fda07443682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srclua5\ctrl">
+      <UniqueIdentifier>{6d0de2ab-1262-4823-8599-ffcf4dac544a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srclua5\elem">
+      <UniqueIdentifier>{e3854693-b6d2-4690-b658-8801e12ced82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srclua5\gl">
+      <UniqueIdentifier>{b8ef63fc-fa5e-412a-b3b2-497fa484125a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srclua5\lh">
+      <UniqueIdentifier>{1981f296-23e3-4660-8ec6-841fcbfcb05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcmatrixex">
+      <UniqueIdentifier>{7b19c8ec-9833-4155-a0c9-842748e12230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcmglplot">
+      <UniqueIdentifier>{b8077674-a1b2-4166-9817-541289e6389f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcmglplot\src">
+      <UniqueIdentifier>{76121342-3b9e-483f-940c-a76b85e9c572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcmglplot\src\s_hull">
+      <UniqueIdentifier>{bf7ce402-a6dd-4ef1-9ac8-6b545c77e3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcmglplot\mgl2">
+      <UniqueIdentifier>{1ce9486c-7efe-46d9-a18b-9c4f64df4c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcole">
+      <UniqueIdentifier>{e5c48b6c-3400-4b16-9db2-5cf6749c473f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcplot">
+      <UniqueIdentifier>{bfcb49c5-98f7-425c-a9dc-c15eb5039b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcpplot">
+      <UniqueIdentifier>{e5368ead-7ddb-4f9b-948b-2dd312017bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcscintilla">
+      <UniqueIdentifier>{cd3fd785-278c-4682-8b9a-83b2f5935270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcscintilla\gtk">
+      <UniqueIdentifier>{d7df078f-0eac-48dd-80f6-bf38ccba5269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcscintilla\include">
+      <UniqueIdentifier>{2b3a73b1-a16d-43ad-8686-84d228b850e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcscintilla\lexers">
+      <UniqueIdentifier>{55ed758e-2060-4ed8-9e8e-d6e52207fadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcscintilla\lexlib">
+      <UniqueIdentifier>{561c794b-81c7-4d53-9e54-e42c6e029ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcscintilla\src">
+      <UniqueIdentifier>{141fea04-2ec4-4a1e-b61e-a826169e2b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srctuio">
+      <UniqueIdentifier>{ec3ea702-602f-486a-bd2f-5e5522a34439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srctuio\oscpack">
+      <UniqueIdentifier>{b98cc26a-cddc-4ca6-92c3-23f33d9f408b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srctuio\oscpack\ip">
+      <UniqueIdentifier>{5a4a64fe-cfc6-4481-ada8-a3cfb487c201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srctuio\oscpack\ip\posix">
+      <UniqueIdentifier>{fddfa488-d866-4fad-bf13-651c64024e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srctuio\oscpack\ip\win32">
+      <UniqueIdentifier>{5b168afe-b8a3-4d79-b43c-779c96aa4260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srctuio\oscpack\osc">
+      <UniqueIdentifier>{5c845722-eab8-42a3-a4d6-f43a4c9a7ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srctuio\tuio">
+      <UniqueIdentifier>{b43f479d-837b-4b22-8d72-6c1baae88a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcscintilla\win32">
+      <UniqueIdentifier>{b9091ca4-e12b-4257-aa63-b07a84a6c7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcview">
+      <UniqueIdentifier>{883fe543-e420-4299-ac1b-222601da8598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\srcweb">
+      <UniqueIdentifier>{3bf96e41-c1e7-4236-bbc9-ba21e981f12c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iuplua.def">
+      <Filter>Source files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srcconsole\lh\console5.lh">
+      <Filter>Source files\srcconsole\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srcconsole\lh\indent.lh">
+      <Filter>Source files\srcconsole\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\dial.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\dialog.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\expander.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\filedlg.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\fill.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\flatbutton.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\fontdlg.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\frame.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gauge.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glbutton.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glcanvas.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glcanvasbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glexpander.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glframe.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gllabel.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gllink.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glprogressbar.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glscrollbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glseparator.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glsizebox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glsubcanvas.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gltoggle.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\glval.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\gridbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\hbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\image.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\imagergb.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\imagergba.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\item.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\iup_config.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\iuplua.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\label.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\link.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\list.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\matrix.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\matrixex.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\matrixlist.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\menu.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\messagedlg.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\mgllabel.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\mglplot.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\multiline.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\normalizer.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\olecontrol.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\plot.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\pplot.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\progressbar.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\progressdlg.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\radio.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\sbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\scintilla.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\scrollbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\separator.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\spin.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\spinbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\split.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\submenu.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\tabs.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\text.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\timer.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\toggle.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\tree.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\tuioclient.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\user.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\val.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\vbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\webbrowser.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\zbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\backgroundbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\button.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\canvas.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\cbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\cells.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\clipboard.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\colorbar.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\colorbrowser.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\colordlg.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\constants.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\iup\srclua5\lh\detachbox.lh">
+      <Filter>Source files\srclua5\lh</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_class_cbs.hpp">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_config.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_mglplot.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_plot.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_pplot.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iup_scintilla.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcb.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcbox.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcbs.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcells.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcolorbar.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupcontrols.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupdef.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupdial.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupgauge.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupgc.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupgetparam.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupgl.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupglcontrols.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupim.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupkey.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua_mglplot.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua_plot.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua_pplot.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuplua_scintilla.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluacontrols.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluagl.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluaglcontrols.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluaim.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluamatrixex.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluaole.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluatuio.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupluaweb.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupmask.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupmatrix.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupmatrixex.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupole.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupsbox.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupspin.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuptabs.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuptree.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iuptuio.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupval.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\include\iupweb.h">
+      <Filter>Source files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_array.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_assert.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_attrib.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_box.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_button.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_canvas.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_childtree.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_class.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_classbase.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_dialog.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_dlglist.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_draw.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_drv.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_drvfont.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_drvinfo.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_focus.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_frame.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_func.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_globalattrib.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_image.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_key.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_label.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_layout.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_ledlex.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_linefile.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_list.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_mask.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_maskmatch.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_maskparse.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_menu.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_names.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_normalizer.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_object.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_predialogs.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_progressbar.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_register.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_stdcontrols.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_str.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_strmessage.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_table.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_tabs.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_text.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_timer.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_toggle.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_tree.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\iup_val.h">
+      <Filter>Source files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_drv.h">
+      <Filter>Source files\src\gtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_handle.h">
+      <Filter>Source files\src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_info.h">
+      <Filter>Source files\src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_str.h">
+      <Filter>Source files\src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_brush.h">
+      <Filter>Source files\src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_draw.h">
+      <Filter>Source files\src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_drv.h">
+      <Filter>Source files\src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccd\iup_cdutil.h">
+      <Filter>Source files\srccd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_controls.h">
+      <Filter>Source files\srccontrols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\color\iup_colorhsi.h">
+      <Filter>Source files\srccontrols\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_aux.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_cd.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_colres.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_def.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_draw.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_edit.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_getset.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_key.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mark.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mem.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mouse.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_numlc.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_scroll.h">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcconsole\lprefix53.h">
+      <Filter>Source files\srcconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glcontrols.h">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gldraw.h">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glfont.h">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glicon.h">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glimage.h">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glscrollbars.h">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glsubcanvas.h">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLPolygonFont.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLTextureFont.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGlyph.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTLayout.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTOutlineGlyph.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTPixmapGlyph.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTPoint.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTPolyGlyph.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTSimpleLayout.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTTextureGlyph.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBBox.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBitmapGlyph.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBuffer.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBufferFont.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTBufferGlyph.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTExtrdGlyph.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTFont.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\ftgl.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLBitmapFont.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLExtrdFont.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLOutlineFont.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\FTGL\FTGLPixmapFont.h">
+      <Filter>Source files\srcglcontrols\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\freetype.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ft2build.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftadvanc.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftbbox.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftbdf.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftbitmap.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftcache.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftchapters.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftcid.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\fterrdef.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\fterrors.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftgasp.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftglyph.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftgxval.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftgzip.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftimage.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftincrem.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftlcdfil.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftlist.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftlzw.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftmac.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftmm.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftmodapi.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftmoderr.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftotval.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftoutln.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftpfr.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftrender.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftsizes.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftsnames.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftstroke.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftsynth.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftsystem.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\fttrigon.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\fttypes.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftwinfnt.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ftxf86.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\t1tables.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ttnameid.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\tttables.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\tttags.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\ttunpat.h">
+      <Filter>Source files\srcglcontrols\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftconfig.h">
+      <Filter>Source files\srcglcontrols\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftheader.h">
+      <Filter>Source files\srcglcontrols\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftmodule.h">
+      <Filter>Source files\srcglcontrols\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftoption.h">
+      <Filter>Source files\srcglcontrols\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\freetype\config\ftstdlib.h">
+      <Filter>Source files\srcglcontrols\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logosw32.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmaps.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmaps8.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmapsgtk.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_icons.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_icons8.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logos.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logos8.h">
+      <Filter>Source files\srcimglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srclua5\il.h">
+      <Filter>Source files\srclua5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_controls.h">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glcontrols.h">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iup_matrixex.h">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\zlib.h">
+      <Filter>Source files\srcmglplot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\cont.hpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\interp.hpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\s_hull\s_hull_pro.h">
+      <Filter>Source files\srcmglplot\src\s_hull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\datac_cf.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\define.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\dllexport.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\eval.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\evalc.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\fit.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\font.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\mgl.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\mgl_cf.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\opengl.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\other.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\parser.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\pde.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\plot.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\prim.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\surf.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\thread.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\type.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\vect.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\volume.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\wnd.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\abstract.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\addon.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\base.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\base_cf.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\canvas.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\canvas_cf.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\canvas_wnd.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\config.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\cont.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\data.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\data_cf.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcmglplot\mgl2\datac.h">
+      <Filter>Source files\srcmglplot\mgl2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tAmbientProperties.h">
+      <Filter>Source files\srcole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tDispatch.h">
+      <Filter>Source files\srcole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tLegacy.h">
+      <Filter>Source files\srcole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleClientSite.h">
+      <Filter>Source files\srcole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleControlSite.h">
+      <Filter>Source files\srcole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleHandler.h">
+      <Filter>Source files\srcole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleInPlaceFrame.h">
+      <Filter>Source files\srcole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcole\tOleInPlaceSite.h">
+      <Filter>Source files\srcole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcplot\iup_plot_ctrl.h">
+      <Filter>Source files\srcplot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlot.h">
+      <Filter>Source files\srcplot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcpplot\iupPPlot.h">
+      <Filter>Source files\srcpplot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcpplot\iuppplot.hpp">
+      <Filter>Source files\srcpplot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcpplot\iupPPlotInteraction.h">
+      <Filter>Source files\srcpplot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci.h">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\Converter.h">
+      <Filter>Source files\srcscintilla\gtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\scintilla-marshal.h">
+      <Filter>Source files\srcscintilla\gtk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\ILexer.h">
+      <Filter>Source files\srcscintilla\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\Platform.h">
+      <Filter>Source files\srcscintilla\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\SciLexer.h">
+      <Filter>Source files\srcscintilla\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\Scintilla.h">
+      <Filter>Source files\srcscintilla\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\include\ScintillaWidget.h">
+      <Filter>Source files\srcscintilla\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\Accessor.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\CharacterCategory.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\CharacterSet.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexAccessor.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerBase.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerModule.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerNoExceptions.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerSimple.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\OptionSet.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\PropSetSimple.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\SparseState.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\StringCopy.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\StyleContext.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\SubStyles.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\WordList.h">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CharClassify.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ContractionState.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Decoration.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Document.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\EditModel.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Editor.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\EditView.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ExternalLexer.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\FontQuality.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Indicator.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\KeyMap.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\LineMarker.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\MarginView.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Partitioning.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\PerLine.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\PositionCache.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\RESearch.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\RunStyles.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ScintillaBase.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Selection.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\SplitVector.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Style.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\UnicodeFromUTF8.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\UniConversion.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ViewStyle.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\XPM.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\AutoComplete.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CallTip.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CaseConvert.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CaseFolder.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Catalogue.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CellBuffer.h">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioClient.h">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioContainer.h">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioCursor.h">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioListener.h">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioObject.h">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioPoint.h">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioServer.h">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioTime.h">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\IpEndpointName.h">
+      <Filter>Source files\srctuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\NetworkingUtils.h">
+      <Filter>Source files\srctuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\PacketListener.h">
+      <Filter>Source files\srctuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\TimerListener.h">
+      <Filter>Source files\srctuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\UdpSocket.h">
+      <Filter>Source files\srctuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\MessageMappingOscPacketListener.h">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscException.h">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscHostEndianness.h">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscPacketListener.h">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscPrintReceivedElements.h">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscReceivedElements.h">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscTypes.h">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcscintilla\win32\PlatWin.h">
+      <Filter>Source files\srcscintilla\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\iup\srcweb\iup_webbrowser.h">
+      <Filter>Source files\srcweb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_array.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_assert.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_attrib.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_backgroundbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_box.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_button.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_callback.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_canvas.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_cbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_childtree.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_class.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_classattrib.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_classbase.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_colordlg.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_config.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_detachbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_dialog.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_dlglist.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_expander.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_filedlg.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_fill.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_flatbutton.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_focus.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_font.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_fontdlg.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_frame.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_func.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_getparam.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_globalattrib.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_gridbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_hbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_image.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_key.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_label.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_layout.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_layoutdlg.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_ledlex.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_ledparse.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_linefile.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_link.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_list.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_mask.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_maskmatch.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_maskparse.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_menu.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_messagedlg.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_names.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_normalizer.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_object.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_open.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_predialogs.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_progressbar.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_progressdlg.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_radio.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_recplay.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_register.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_sbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_scanf.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_scrollbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_show.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_spin.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_split.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_str.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_strmessage.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_table.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_tabs.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_text.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_timer.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_toggle.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_tree.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_user.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_val.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_vbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\iup_zbox.c">
+      <Filter>Source files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_help.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_image.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_key.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_label.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_list.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_loop.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_menu.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_messagedlg.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_open.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_progressbar.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_str.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_tabs.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_text.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_timer.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_tips.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_toggle.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_tree.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_val.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_button.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_canvas.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_clipboard.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_colordlg.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_common.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_dialog.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_dragdrop.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_draw.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_draw_cairo.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_filedlg.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_focus.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_font.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_fontdlg.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_frame.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\gtk\iupgtk_globalattrib.c">
+      <Filter>Source files\src\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_filedlg.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_focus.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_font.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_fontdlg.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_frame.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_globalattrib.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_handle.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_image.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_info.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_key.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_label.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_list.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_loop.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_menu.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_messagedlg.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_open.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_progressbar.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_str.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_tabs.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_text.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_timer.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_tips.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_toggle.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_touch.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_tree.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_val.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwindows_help.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwindows_info.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwindows_main.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_brush.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_button.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_canvas.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_clipboard.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_colordlg.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_common.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_dialog.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_dragdrop.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\src\win\iupwin_draw.c">
+      <Filter>Source files\src\win</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccd\iup_cd.c">
+      <Filter>Source files\srccd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccd\iup_cdutil.c">
+      <Filter>Source files\srccd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_oldval.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_cells.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_colorbar.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_controls.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_dial.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_gauge.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_matrixlist.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_oldmask.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\iup_oldtabs.c">
+      <Filter>Source files\srccontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\color\iup_colorbrowser.c">
+      <Filter>Source files\srccontrols\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\color\iup_colorbrowserdlg.c">
+      <Filter>Source files\srccontrols\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\color\iup_colorhsi.c">
+      <Filter>Source files\srccontrols\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_aux.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_colres.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_draw.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_edit.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_ex.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_getset.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_key.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mark.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mem.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_mouse.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_numlc.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmat_scroll.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srccontrols\matrix\iupmatrix.c">
+      <Filter>Source files\srccontrols\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcconsole\iup_lua53.c">
+      <Filter>Source files\srcconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcgl\iup_glcanvas_win.c">
+      <Filter>Source files\srcgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glval.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glbutton.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glcanvasbox.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glcontrols.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gldraw.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glexpander.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glfont.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glframe.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glicon.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glimage.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gllabel.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gllink.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glprogressbar.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glscrollbars.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glscrollbox.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glseparator.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glsizebox.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_glsubcanvas.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcglcontrols\iup_gltoggle.c">
+      <Filter>Source files\srcglcontrols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcim\iup_im.c">
+      <Filter>Source files\srcim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_image_library.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmaps.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmaps8.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_bitmapsgtk.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_icons.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_icons8.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logos.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logos8.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcimglib\iup_imglib_logosw32.c">
+      <Filter>Source files\srcimglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_api.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_cd.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_config.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_getcolor.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_getparam.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_im.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_imglib.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_scanf.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\iuplua_tree_aux.c">
+      <Filter>Source files\srclua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_cells.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_colorbar.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_colorbrowser.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_dial.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_gauge.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_glcanvas.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_matrix.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_matrixex.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_matrixlist.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_mgllabel.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_mglplot.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_olecontrol.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_plot.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_pplot.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_scintilla.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_tuioclient.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\il_webbrowser.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_controls.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_glcanvas.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_mask.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_matrix_aux.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_matrixex_aux.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_mglplot.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_plot.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\ctrl\iuplua_pplot.c">
+      <Filter>Source files\srclua5\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_zbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_backgroundbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_button.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_canvas.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_cbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_clipboard.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_colordlg.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_detachbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_dialog.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_expander.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_filedlg.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_fill.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_flatbutton.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_fontdlg.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_frame.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_gridbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_hbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_image.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_imagergb.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_imagergba.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_item.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_label.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_link.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_list.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_menu.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_messagedlg.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_multiline.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_normalizer.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_progressbar.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_progressdlg.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_radio.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_sbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_scrollbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_separator.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_spin.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_spinbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_split.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_submenu.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_tabs.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_text.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_timer.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_toggle.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_tree.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_user.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_val.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\elem\il_vbox.c">
+      <Filter>Source files\srclua5\elem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\iuplua_glcontrols.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glbutton.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glcanvasbox.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glexpander.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glframe.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_gllabel.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_gllink.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glprogressbar.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glscrollbox.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glseparator.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glsizebox.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glsubcanvas.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_gltoggle.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srclua5\gl\il_glval.c">
+      <Filter>Source files\srclua5\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_visible.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iup_matrixex.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_busy.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_clipboard.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_copy.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_export.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_find.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_sort.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_undo.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmatrixex\iupmatex_units.c">
+      <Filter>Source files\srcmatrixex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\iup_mglplot.cpp">
+      <Filter>Source files\srcmglplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\addon.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\axis.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\base.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\base_cf.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\canvas.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\canvas_cf.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\complex.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\complex_ex.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\complex_io.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\cont.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\crust.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data_ex.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data_gr.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data_io.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\data_png.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\eval.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\evalc.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\evalp.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\exec.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\export.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\export_2d.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\export_3d.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\fft.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\fit.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\font.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\obj.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\opengl.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\other.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\parser.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\pde.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\pixel.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\plot.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\prim.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\surf.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\tex_table.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\vect.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\volume.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\window.cpp">
+      <Filter>Source files\srcmglplot\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcmglplot\src\s_hull\s_hull_pro.cpp">
+      <Filter>Source files\srcmglplot\src\s_hull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\iup_olecontrol.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tAmbientProperties.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tDispatch.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tLegacy.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleClientSite.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleControlSite.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleHandler.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleInPlaceFrame.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcole\tOleInPlaceSite.cpp">
+      <Filter>Source files\srcole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iup_plot.cpp">
+      <Filter>Source files\srcplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iup_plot_attrib.cpp">
+      <Filter>Source files\srcplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlot.cpp">
+      <Filter>Source files\srcplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlotCalc.cpp">
+      <Filter>Source files\srcplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlotDraw.cpp">
+      <Filter>Source files\srcplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcplot\iupPlotTick.cpp">
+      <Filter>Source files\srcplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcpplot\iupPPlotInteraction.cpp">
+      <Filter>Source files\srcpplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcpplot\iup_pplot.cpp">
+      <Filter>Source files\srcpplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcpplot\iupPPlot.cpp">
+      <Filter>Source files\srcpplot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iup_scintilla.cpp">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_annotation.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_autocompletion.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_bracelight.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_clipboard.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_cursor.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_folding.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_lexer.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_margin.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_markers.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_overtype.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_scrolling.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_searching.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_selection.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_style.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_tab.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_text.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_whitespace.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\iupsci_wordwrap.c">
+      <Filter>Source files\srcscintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\PlatGTK.cxx">
+      <Filter>Source files\srcscintilla\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\ScintillaGTK.cxx">
+      <Filter>Source files\srcscintilla\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\gtk\scintilla-marshal.c">
+      <Filter>Source files\srcscintilla\gtk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexA68k.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAbaqus.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAda.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAPDL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAsm.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAsn1.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexASY.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAU3.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAVE.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexAVS.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBaan.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBash.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBasic.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBibTeX.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexBullant.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCaml.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCLW.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCmake.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCOBOL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCoffeeScript.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexConf.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCPP.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCrontab.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCsound.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexCSS.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexD.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexDMAP.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexDMIS.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexECL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexEiffel.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexErlang.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexEScript.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexFlagship.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexForth.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexFortran.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexGAP.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexGui4Cli.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexHaskell.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexHex.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexHTML.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexInno.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexKix.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexKVIrc.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexLaTeX.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexLisp.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexLout.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexLua.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMagik.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMarkdown.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMatlab.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMetapost.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMMIXAL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexModula.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMPT.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMSSQL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexMySQL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexNimrod.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexNsis.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexOpal.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexOScript.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexOthers.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPascal.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPB.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPerl.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPLM.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPO.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPOV.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPowerPro.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPowerShell.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexProgress.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPS.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexPython.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexR.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexRebol.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexRegistry.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexRuby.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexRust.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexScriptol.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSmalltalk.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSML.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSorcus.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSpecman.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSpice.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSQL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexSTTXT.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTACL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTADS3.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTAL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTCL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTCMD.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTeX.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexTxt2tags.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexVB.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexVerilog.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexVHDL.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexVisualProlog.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexers\LexYAML.cxx">
+      <Filter>Source files\srcscintilla\lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\Accessor.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\CharacterCategory.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\CharacterSet.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerBase.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerModule.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerNoExceptions.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\LexerSimple.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\PropSetSimple.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\StyleContext.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\lexlib\WordList.cxx">
+      <Filter>Source files\srcscintilla\lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CharClassify.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ContractionState.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Decoration.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Document.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\EditModel.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Editor.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\EditView.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ExternalLexer.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Indicator.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\KeyMap.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\LineMarker.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\MarginView.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\PerLine.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\PositionCache.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\RESearch.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\RunStyles.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ScintillaBase.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Selection.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Style.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\UniConversion.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\ViewStyle.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\XPM.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\AutoComplete.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CallTip.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CaseConvert.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CaseFolder.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\Catalogue.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\src\CellBuffer.cxx">
+      <Filter>Source files\srcscintilla\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\iup_tuio.cpp">
+      <Filter>Source files\srctuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioClient.cpp">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioServer.cpp">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\tuio\TuioTime.cpp">
+      <Filter>Source files\srctuio\tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\IpEndpointName.cpp">
+      <Filter>Source files\srctuio\oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscOutboundPacketStream.cpp">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscPrintReceivedElements.cpp">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscReceivedElements.cpp">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\osc\OscTypes.cpp">
+      <Filter>Source files\srctuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\posix\NetworkingUtils.cpp">
+      <Filter>Source files\srctuio\oscpack\ip\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\posix\UdpSocket.cpp">
+      <Filter>Source files\srctuio\oscpack\ip\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\win32\NetworkingUtils.cpp">
+      <Filter>Source files\srctuio\oscpack\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srctuio\oscpack\ip\win32\UdpSocket.cpp">
+      <Filter>Source files\srctuio\oscpack\ip\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\win32\CheckD2D.cxx">
+      <Filter>Source files\srcscintilla\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\win32\PlatWin.cxx">
+      <Filter>Source files\srcscintilla\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcscintilla\win32\ScintillaWin.cxx">
+      <Filter>Source files\srcscintilla\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcview\iup_view.c">
+      <Filter>Source files\srcview</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcweb\iupwin_webbrowser.cpp">
+      <Filter>Source files\srcweb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcweb\iup_webbrowser.c">
+      <Filter>Source files\srcweb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\iup\srcweb\iupgtk_webbrowser.c">
+      <Filter>Source files\srcweb</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

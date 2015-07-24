@@ -839,12 +839,12 @@ std::wstring MGL_EXPORT mgl_ftoa(double v, const char *fmt)
 	if(mglchr(fmt,'-') && !(plus||tex))		// replace '-' by "\minus"
 		for(i=0;i<lf;i++)	res += sf[i];
 	else
-		for(i=0;i<lf;i++)	res += sf[i]!='-'?wchar_t(sf[i]):L'−';
+		for(i=0;i<lf;i++)	res += sf[i]!='-'?wchar_t(sf[i]):L'-';
 	if(tex)	// TeX notation: 'e' -> "\cdot 10^{...}"
 	{
 		if(res[0]=='1' && (res[1]=='e' || res[1]=='E'))
 		{	res.replace(0,2,L"10^{");	res += L'}';	}
-		else if(wcschr(L"+-−",res[0]) && res[1]=='1' && (res[2]=='e' || res[2]=='E'))
+		else if(wcschr(L"+-",res[0]) && res[1]=='1' && (res[2]=='e' || res[2]=='E'))
  		{	res.replace(1,2,L"10^{");	res += L'}';	}
 		else
 		{

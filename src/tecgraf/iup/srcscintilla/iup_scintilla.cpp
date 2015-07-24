@@ -37,9 +37,9 @@
 #include "iup_assert.h"
 
 #ifdef GTK
-#include "iupgtk_drv.h"
+#include "gtk/iupgtk_drv.h"
 #else
-#include "iupwin_drv.h"
+#include "win/iupwin_drv.h"
 #endif
 
 #include "iupsci.h"

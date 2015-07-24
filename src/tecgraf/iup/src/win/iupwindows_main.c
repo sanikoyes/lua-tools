@@ -22,7 +22,7 @@ extern int main(int, char **);
 
 /* save this handle in DllMain only, use to load resources from the DLL. */
 HINSTANCE iupwin_dll_hinstance = 0;
-
+#define IUP_DLL
 #ifdef IUP_DLL 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {

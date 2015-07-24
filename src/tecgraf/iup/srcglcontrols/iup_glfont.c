@@ -10,7 +10,7 @@
 #include <iconv.h>
 #endif
 
-#include <FTGL/ftgl.h>
+#include "FTGL/ftgl.h"
 
 #include <stdio.h>
 #include <stdlib.h>

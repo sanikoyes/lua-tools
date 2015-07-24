@@ -50,8 +50,8 @@ static ImatExUnit IMATEX_LENGTH_UNITS [IMATEX_UNIT_MAXCOUNT] = {
   {"millimetre"   ,"mm", 0.001,   NULL},
   {"kilometre"    ,"km", 1000,    NULL},
   {"nanometre"    ,"nm", 1.0e-9,  NULL},
-  {"Angstrom"     ,"Å" , 1.0e-10, "\xC3\x85" },
-  {"micron"       ,"µ" , 1.0e-6,  "\xC2\xB5"  },   /* International yard and pound agreement in 1959 */                
+  {"Angstrom"     ,"Ã…" , 1.0e-10, "\xC3\x85" },
+  {"micron"       ,"Âµ" , 1.0e-6,  "\xC2\xB5"  },   /* International yard and pound agreement in 1959 */                
   {"inch"         ,"in", 0.0254,   NULL},   /* 0.0254                 (in = 25.4 mm)   */
   {"foot"         ,"ft", 0.3048,   NULL},    /* 0.0254 * 12            (ft = 12 in)     */
   {"yard"         ,"yd", 0.9144,   NULL},     /* 0.0254 * 12 * 3        (yd = 3 ft)      */
@@ -66,7 +66,7 @@ static ImatExUnit IMATEX_TIME_UNITS [IMATEX_UNIT_MAXCOUNT] = {
   {"day"   ,"d"  , 86400, NULL},    /* 60 * 60 * 24 */
   {"week"  ,"wk" , 604800, NULL},  /* 60 * 60 * 24 * 7 */
   {"millisecond","ms", 0.001, NULL},                                       
-  {"microsecond","µs", 1.0e-6, "\xC2\xB5s"}};      
+  {"microsecond","Âµs", 1.0e-6, "\xC2\xB5s"}};      
 
 #define IMATEX_MASS_COUNT 5               
 static ImatExUnit IMATEX_MASS_UNITS [IMATEX_UNIT_MAXCOUNT] = {
@@ -81,33 +81,33 @@ static ImatExUnit IMATEX_MASS_UNITS [IMATEX_UNIT_MAXCOUNT] = {
 #define IMATEX_TEMPERATURE_COUNT 4                       
 static ImatExUnit IMATEX_TEMPERATURE_UNITS [IMATEX_UNIT_MAXCOUNT] = {
   {"Kelvin"           ,"K"  , 1, NULL},
-  {"degree Celsius"   ,"°C" , 1,     "\xC2\xBA""C"},
-  {"degree Fahrenheit","°F" , 5./9., "\xC2\xBA""F"},
-  {"degree Rankine"   ,"°Ra", 5./9., "\xC2\xBA""Ra"}};
+  {"degree Celsius"   ,"Â°C" , 1,     "\xC2\xBA""C"},
+  {"degree Fahrenheit","Â°F" , 5./9., "\xC2\xBA""F"},
+  {"degree Rankine"   ,"Â°Ra", 5./9., "\xC2\xBA""Ra"}};
 
 #define IMATEX_AREA_COUNT 10
 static ImatExUnit IMATEX_AREA_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"square metre"     ,"m²"   , 1,       "m\xC2\xB2"},         /* '²'  \178=ISO8859-1  \xC2\xB2=UTF-8 */
-  {"square centimetre","cm²"  , 1.0e-4, "cm\xC2\xB2"},           /* 0.01² */
-  {"square millimetre","mm²"  , 1.0e-6, "mm\xC2\xB2"},           /* 0.001² */
-  {"square kilometre" ,"km²"  , 1.0e6,  "km\xC2\xB2"},            /* 1000² */
-  {"square inch"      ,"sq in", 6.4516e-4, NULL},       /* 0.0254² */
-  {"square foot"      ,"sq ft", 9.290304e-2, NULL},      /* 0.3048² */   
-  {"square yard"      ,"sq yd", 0.83612736, NULL},       /* 0.9144² */
-  {"square mile"      ,"sq mi", 2.589988110336e6, NULL}, /* 1609.344² */
-  {"acre"             ,"ac"   , 4046.8564224, NULL},     /* 0.9144² * 4840 (4840 sq yd) */
+  {"square metre"     ,"mÂ²"   , 1,       "m\xC2\xB2"},         /* 'Â²'  \178=ISO8859-1  \xC2\xB2=UTF-8 */
+  {"square centimetre","cmÂ²"  , 1.0e-4, "cm\xC2\xB2"},           /* 0.01Â² */
+  {"square millimetre","mmÂ²"  , 1.0e-6, "mm\xC2\xB2"},           /* 0.001Â² */
+  {"square kilometre" ,"kmÂ²"  , 1.0e6,  "km\xC2\xB2"},            /* 1000Â² */
+  {"square inch"      ,"sq in", 6.4516e-4, NULL},       /* 0.0254Â² */
+  {"square foot"      ,"sq ft", 9.290304e-2, NULL},      /* 0.3048Â² */   
+  {"square yard"      ,"sq yd", 0.83612736, NULL},       /* 0.9144Â² */
+  {"square mile"      ,"sq mi", 2.589988110336e6, NULL}, /* 1609.344Â² */
+  {"acre"             ,"ac"   , 4046.8564224, NULL},     /* 0.9144Â² * 4840 (4840 sq yd) */
   {"hectare"          ,"ha"   , 1.0e4,      NULL}};
 
 #define IMATEX_VOLUME_COUNT 11
 static ImatExUnit IMATEX_VOLUME_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"cubic metre"     ,"m³"   , 1,       "m\xC2\xB3"},
-  {"cubic centimetre","cm³"  , 1.0e-6, "cm\xC2\xB3"},  /* 0.01³ */
-  {"cubic millimetre","mm³"  , 1.0e-9, "mm\xC2\xB3"},  /* 0.001³ */
-  {"cubic kilometre" ,"km³"  , 1.0e9,  "km\xC2\xB3"},  /* 1000³ */
-  {"cubic inch"      ,"cu in", 16.387064e-6, NULL},          /* 0.0254³ */
-  {"cubic foot"      ,"cu ft", 0.028316846592, NULL},        /* 0.3048³ */   
-  {"cubic yard"      ,"cu yd", 0.764554857984, NULL},        /* 0.9144³ */
-  {"cubic mile"      ,"cu mi", 4168181825.440579584, NULL},  /* 1609.344³ */
+  {"cubic metre"     ,"mÂ³"   , 1,       "m\xC2\xB3"},
+  {"cubic centimetre","cmÂ³"  , 1.0e-6, "cm\xC2\xB3"},  /* 0.01Â³ */
+  {"cubic millimetre","mmÂ³"  , 1.0e-9, "mm\xC2\xB3"},  /* 0.001Â³ */
+  {"cubic kilometre" ,"kmÂ³"  , 1.0e9,  "km\xC2\xB3"},  /* 1000Â³ */
+  {"cubic inch"      ,"cu in", 16.387064e-6, NULL},          /* 0.0254Â³ */
+  {"cubic foot"      ,"cu ft", 0.028316846592, NULL},        /* 0.3048Â³ */   
+  {"cubic yard"      ,"cu yd", 0.764554857984, NULL},        /* 0.9144Â³ */
+  {"cubic mile"      ,"cu mi", 4168181825.440579584, NULL},  /* 1609.344Â³ */
   {"litre"           ,"L"    , 0.001           , NULL},
   {"gallon"          ,"gal"  , 3.785411784e-3, NULL},     /* (US fluid; Wine = 231 cu in) */
   {"barrel"          ,"bl"   , 0.158987294928, NULL}};    /* (petroleum = 42 gal) */
@@ -133,32 +133,32 @@ static ImatExUnit IMATEX_ANGULAR_SPEED_UNITS [IMATEX_UNIT_MAXCOUNT] = {
 
 #define IMATEX_ACCELERATION_COUNT 5
 static ImatExUnit IMATEX_ACCELERATION_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"metre per second squared","m/s²", 1,         "m/s\xC2\xB2"},
-  {"inch per second squared" ,"in/s²", 0.0254,  "in/s\xC2\xB2"},
+  {"metre per second squared","m/sÂ²", 1,         "m/s\xC2\xB2"},
+  {"inch per second squared" ,"in/sÂ²", 0.0254,  "in/s\xC2\xB2"},
   {"knot per second"         ,"kn/s", 1.852/3.6 , NULL},
-  {"mile per second squared" ,"mi/s²", 1609.344, "mi/s\xC2\xB2"},
+  {"mile per second squared" ,"mi/sÂ²", 1609.344, "mi/s\xC2\xB2"},
   {"standard gravity"        ,"g"   , GRAVITY  , NULL}};
 
 #define IMATEX_FORCE_COUNT 7
 static ImatExUnit IMATEX_FORCE_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"Newton"        ,"N"  , 1, NULL},              /* N = kg·m/s² */
+  {"Newton"        ,"N"  , 1, NULL},              /* N = kgÂ·m/sÂ² */
   {"Kilonewton"    ,"kN" , 1000     , NULL},
-  {"dyne"          ,"dyn", 1.0e-5   , NULL},      /* g·cm/s² */
+  {"dyne"          ,"dyn", 1.0e-5   , NULL},      /* gÂ·cm/sÂ² */
   {"kilogram-force","kgf", GRAVITY  , NULL},
-  {"pound-force"   ,"lbf", GRAVITY * 0.45359237, NULL},          /* lbf = g × lb */
-  {"kip-force"     ,"kip", GRAVITY * 0.45359237 * 1000, NULL},   /* kip = g × 1000 lb */
-  {"ton-force"     ,"tnf", GRAVITY * 0.45359237 * 2000, NULL}};  /* tnf = g × 2000 lb */
+  {"pound-force"   ,"lbf", GRAVITY * 0.45359237, NULL},          /* lbf = g Ã— lb */
+  {"kip-force"     ,"kip", GRAVITY * 0.45359237 * 1000, NULL},   /* kip = g Ã— 1000 lb */
+  {"ton-force"     ,"tnf", GRAVITY * 0.45359237 * 2000, NULL}};  /* tnf = g Ã— 2000 lb */
 
 #define IMATEX_PRESSURE_COUNT 8
 static ImatExUnit IMATEX_PRESSURE_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"Pascal"               ,"Pa"  , 1, NULL},      /* Pa = N/m² = kg/(m·s²) */
+  {"Pascal"               ,"Pa"  , 1, NULL},      /* Pa = N/mÂ² = kg/(mÂ·sÂ²) */
   {"kilopascal"           ,"kPa" , 1000    , NULL},
   {"atmosphere"           ,"atm" , 101325  , NULL},   /* (standard) */
-  {"millimetre of mercury","mmHg", 133.322387415, NULL},    /* 13595.1 kg/m³ × mm × g = 13595.1 * 0.001 * GRAVITY */
+  {"millimetre of mercury","mmHg", 133.322387415, NULL},    /* 13595.1 kg/mÂ³ Ã— mm Ã— g = 13595.1 * 0.001 * GRAVITY */
   {"bar"                  ,"bar" , 1.0e5   , NULL},                                                       
   {"torr"                 ,"torr", 101325.0/760.0, NULL},   /* aprox 133.3224 */
-  {"pound per square inch","psi" , 4.4482216152605/6.4516e-4, NULL},  /* psi = lbf/in² = GRAVITY*0.45359237/0,0254² */
-  {"kip per square inch"  ,"ksi" , 4.4482216152605/6.4516e-1, NULL}}; /* ksi = kip/in² */          
+  {"pound per square inch","psi" , 4.4482216152605/6.4516e-4, NULL},  /* psi = lbf/inÂ² = GRAVITY*0.45359237/0,0254Â² */
+  {"kip per square inch"  ,"ksi" , 4.4482216152605/6.4516e-1, NULL}}; /* ksi = kip/inÂ² */          
 
 #define IMATEX_FORCE_PER_LENGTH_COUNT 4            /* same as (Linear Weight) */
 static ImatExUnit IMATEX_FORCE_PER_LENGTH_UNITS [IMATEX_UNIT_MAXCOUNT] = {
@@ -169,38 +169,38 @@ static ImatExUnit IMATEX_FORCE_PER_LENGTH_UNITS [IMATEX_UNIT_MAXCOUNT] = {
 
 #define IMATEX_MOMENT_COUNT 8           /* Torque */
 static ImatExUnit IMATEX_MOMENT_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"Newton metre"             , "N·m"   , 1,                "N\xC2\xB7m"},   /* '·'  \183=ISO8859-1  \xC2B7=UTF-8 */ 
-  {"kilogram-force metre"     , "kgf·m" , GRAVITY,          "kgf\xC2\xB7m"},
-  {"ton-force metre"          , "tnf·m" , GRAVITY*1000,     "tnf\xC2\xB7m"},
-  {"Newton centimetre"        , "N·cm"  , 100,              "N\xC2\xB7m"},
-  {"kilogram-force centimetre", "kgf·cm", GRAVITY*100,      "kgf\xC2\xB7""cm"},
-  {"ton-force centimetre"     , "tnf·cm", GRAVITY*1000*100, "tnf\xC2\xB7""cm"},
-  {"Kilonewton-metre"         , "kN·m"  , 1000,             "kN\xC2\xB7m"},
-  {"metre kilogram"           , "m·kg"  , 1.0/GRAVITY,      "m\xC2\xB7kg"}};
+  {"Newton metre"             , "NÂ·m"   , 1,                "N\xC2\xB7m"},   /* 'Â·'  \183=ISO8859-1  \xC2B7=UTF-8 */ 
+  {"kilogram-force metre"     , "kgfÂ·m" , GRAVITY,          "kgf\xC2\xB7m"},
+  {"ton-force metre"          , "tnfÂ·m" , GRAVITY*1000,     "tnf\xC2\xB7m"},
+  {"Newton centimetre"        , "NÂ·cm"  , 100,              "N\xC2\xB7m"},
+  {"kilogram-force centimetre", "kgfÂ·cm", GRAVITY*100,      "kgf\xC2\xB7""cm"},
+  {"ton-force centimetre"     , "tnfÂ·cm", GRAVITY*1000*100, "tnf\xC2\xB7""cm"},
+  {"Kilonewton-metre"         , "kNÂ·m"  , 1000,             "kN\xC2\xB7m"},
+  {"metre kilogram"           , "mÂ·kg"  , 1.0/GRAVITY,      "m\xC2\xB7kg"}};
 
 #define IMATEX_ANGLE_COUNT 3
 static ImatExUnit IMATEX_ANGLE_UNITS [IMATEX_UNIT_MAXCOUNT] = {
   {"radian", "rad", 1,            NULL},
-  {"degree", "°", M_PI/180.0,     "\xC2\xBA"},
+  {"degree", "Â°", M_PI/180.0,     "\xC2\xBA"},
   {"gradian", "grad", M_PI/200.0, NULL}};
 
 #define IMATEX_SPECIFIC_MASS_COUNT 7
 static ImatExUnit IMATEX_SPECIFIC_MASS_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"kilogram per cubic metre" ,"kg/m³"  , 1,                         "kg/m\xC2\xB3"},
-  {"gram per cubic centimetre","g/cm³"  , 1000,                      "g/cm\xC2\xB3"},
+  {"kilogram per cubic metre" ,"kg/mÂ³"  , 1,                         "kg/m\xC2\xB3"},
+  {"gram per cubic centimetre","g/cmÂ³"  , 1000,                      "g/cm\xC2\xB3"},
   {"gram per millilitre"      ,"g/mL"   , 1000,                      NULL},
   {"kilogram per litre"       ,"kg/L"   , 1000,                      NULL},                       
-  {"pound per cubic foot"     ,"lb/ft³" , 0.45359237/16.387064e-6,   "lb/ft\xC2\xB3"},
-  {"pound per cubic inch"     ,"lb/in³" , 0.45359237/0.028316846592, "lb/in\xC2\xB3"},
+  {"pound per cubic foot"     ,"lb/ftÂ³" , 0.45359237/16.387064e-6,   "lb/ft\xC2\xB3"},
+  {"pound per cubic inch"     ,"lb/inÂ³" , 0.45359237/0.028316846592, "lb/in\xC2\xB3"},
   {"pound per gallon"         ,"lb/gal" , 0.45359237/3.785411784e-3, NULL}};
                                                      
 #define IMATEX_SPECIFIC_WEIGHT_COUNT 6
 static ImatExUnit IMATEX_SPECIFIC_WEIGHT_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"Newton per cubic metre"        ,"N/m³"  , 1,                                        "N/m\xC2\xB3"},      
-  {"Kilonewton per cubic metre"    ,"kN/m³" , 1000,                                     "kN/m\xC2\xB3"},
-  {"kilogram-force per cubic metre","kgf/m³", GRAVITY,                                  "kgf/m\xC2\xB3"},
-  {"ton-force per cubic metre"     ,"tnf/m³", GRAVITY * 1000,                           "tnf/m\xC2\xB3"},
-  {"pound-force per cubic foot"    ,"lbf/ft³", (GRAVITY * 0.45359237) / 0.028316846592, "lbf/m\xC2\xB3"},
+  {"Newton per cubic metre"        ,"N/mÂ³"  , 1,                                        "N/m\xC2\xB3"},      
+  {"Kilonewton per cubic metre"    ,"kN/mÂ³" , 1000,                                     "kN/m\xC2\xB3"},
+  {"kilogram-force per cubic metre","kgf/mÂ³", GRAVITY,                                  "kgf/m\xC2\xB3"},
+  {"ton-force per cubic metre"     ,"tnf/mÂ³", GRAVITY * 1000,                           "tnf/m\xC2\xB3"},
+  {"pound-force per cubic foot"    ,"lbf/ftÂ³", (GRAVITY * 0.45359237) / 0.028316846592, "lbf/m\xC2\xB3"},
   {"kilogram-force per litre"      ,"kgf/L" , GRAVITY * 0.001,                          NULL}};
                                                               
 #define IMATEX_ENERGY_COUNT   7
@@ -210,8 +210,8 @@ static ImatExUnit IMATEX_ENERGY_UNITS[IMATEX_UNIT_MAXCOUNT] = {
   {"calorie"        ,"cal" , 4.1868                , NULL},  /* (International Table) */
   {"kilocalorie"    ,"kcal", 4.1868e3              , NULL},
   {"BTU"            ,"BTU" , 1.05505585262e3       , NULL},  /* (International Table) */
-  {"Kilowatt-hour"  ,"kW·h", 3.6e6                 , "kW\xC2\xB7h"},
-  {"horsepower-hour","hp·h", 2.684519537696172792e6, "hp\xC2\xB7h"}}; /* hp * 3600 */
+  {"Kilowatt-hour"  ,"kWÂ·h", 3.6e6                 , "kW\xC2\xB7h"},
+  {"horsepower-hour","hpÂ·h", 2.684519537696172792e6, "hp\xC2\xB7h"}}; /* hp * 3600 */
                                                                
 #define IMATEX_POWER_COUNT    4
 static ImatExUnit IMATEX_POWER_UNITS[IMATEX_UNIT_MAXCOUNT] = {
@@ -229,35 +229,35 @@ static ImatExUnit IMATEX_FRACTION_UNITS[IMATEX_UNIT_MAXCOUNT] = {
 
 #define IMATEX_KINEMATIC_VISCOSITY_COUNT 3
 static ImatExUnit IMATEX_KINEMATIC_VISCOSITY_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"square metre per second", "m²/s"  , 1,           "m\xC2\xB2/s"},
-  {"square foot per second" , "ft²/s" , 9.290304e-2, "ft\xC2\xB2/s"},      /* 0.3048² */
+  {"square metre per second", "mÂ²/s"  , 1,           "m\xC2\xB2/s"},
+  {"square foot per second" , "ftÂ²/s" , 9.290304e-2, "ft\xC2\xB2/s"},      /* 0.3048Â² */
   {"stokes"                 , "St"    , 1.0e-4,      NULL}};
 
 #define IMATEX_DYNAMIC_VISCOSITY_COUNT 4
 static ImatExUnit IMATEX_DYNAMIC_VISCOSITY_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"Pascal second"        , "Pa·s"      , 1,                        "Pa\xC2\xB7s"},
+  {"Pascal second"        , "PaÂ·s"      , 1,                        "Pa\xC2\xB7s"},
   {"poise"                , "P"         , 0.1,                      NULL},      
-  {"pound per foot hour"  , "lb/(ft·h)" , 0.45359237/(0.3048*3600), "lb/(ft\xC2\xB7h)"},
-  {"pound per foot second", "lb/(ft·s)" , 0.45359237/0.3048,        "lb/(ft\xC2\xB7s)"}};
+  {"pound per foot hour"  , "lb/(ftÂ·h)" , 0.45359237/(0.3048*3600), "lb/(ft\xC2\xB7h)"},
+  {"pound per foot second", "lb/(ftÂ·s)" , 0.45359237/0.3048,        "lb/(ft\xC2\xB7s)"}};
                                                             
 #define IMATEX_FLOW_COUNT 3
 static ImatExUnit IMATEX_FLOW_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"cubic metre per second", "m³/s",  0.1,            "m\xC2\xB3/s"},
-  {"cubic inch per second",  "in³/s", 16.387064e-6,   "in\xC2\xB3/s"},        /* 0.0254³  */
-  {"cubic foot per second",  "ft³/s", 0.028316846592, "ft\xC2\xB3/s"}};       /* 0.3048³  */
+  {"cubic metre per second", "mÂ³/s",  0.1,            "m\xC2\xB3/s"},
+  {"cubic inch per second",  "inÂ³/s", 16.387064e-6,   "in\xC2\xB3/s"},        /* 0.0254Â³  */
+  {"cubic foot per second",  "ftÂ³/s", 0.028316846592, "ft\xC2\xB3/s"}};       /* 0.3048Â³  */
 
 #define IMATEX_ILLUMINANCE_COUNT 4
 static ImatExUnit IMATEX_ILLUMINANCE_UNITS [IMATEX_UNIT_MAXCOUNT] = {
   {"lux",                   "lx",     1,             NULL},
   {"footcandle",            "fc",     10.763910417,  NULL},   /* lumen per square foot  */
-  {"lumen per square inch", "lm/in²", 1550.00310001, "lm/in\xC2\xB2"},
+  {"lumen per square inch", "lm/inÂ²", 1550.00310001, "lm/in\xC2\xB2"},
   {"phot",                  "ph",     1.0e4,         NULL}};
 
 #define IMATEX_ELECTRIC_CHARGE_COUNT 3
 static ImatExUnit IMATEX_ELECTRIC_CHARGE_UNITS [IMATEX_UNIT_MAXCOUNT] = {
-  {"Coulomb",               "C",     1,          NULL},   /* A·s */
+  {"Coulomb",               "C",     1,          NULL},   /* AÂ·s */
   {"Faraday",               "F",     96485.3383, NULL},
-  {"milliampere hour",      "mA·h",  3.6,        "mA\xC2\xB7h"}};
+  {"milliampere hour",      "mAÂ·h",  3.6,        "mA\xC2\xB7h"}};
 
 
 typedef struct _ImatExQuantity {

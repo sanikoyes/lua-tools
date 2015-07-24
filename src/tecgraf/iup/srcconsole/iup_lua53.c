@@ -667,8 +667,8 @@ static void iuplua_input (lua_State *L)
 #include "console5.loh"
 #else
 #ifdef IUPLUA_USELH
-#include "indent.lh"
-#include "console5.lh"
+#include "lh/indent.lh"
+#include "lh/console5.lh"
 #else
   luaL_dofile(L, "indent.lua");
   luaL_dofile(L, "console5.lua");
