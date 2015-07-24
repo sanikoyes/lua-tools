@@ -71,7 +71,7 @@ int iupgllua_open(lua_State * L)
 }
 
 /* obligatory to use require"iupluagl" */
-int luaopen_iupluagl(lua_State* L)
+int luaopen_iuplua_gl(lua_State* L)
 {
   return iupgllua_open(L);
 }

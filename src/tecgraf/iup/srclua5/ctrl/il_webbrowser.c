@@ -83,7 +83,7 @@ int iupweblua_open(lua_State* L)
 }
 
 /* obligatory to use require"iupluaweb" */
-int luaopen_iupluaweb(lua_State* L)
+int luaopen_iuplua_web(lua_State* L)
 {
   return iupweblua_open(L);
 }

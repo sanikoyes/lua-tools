@@ -53,7 +53,7 @@ int iuptuiolua_open(lua_State* L)
 }
 
 /* obligatory to use require"iupluatuio" */
-int luaopen_iupluatuio(lua_State* L)
+int luaopen_iuplua_tuio(lua_State* L)
 {
   return iuptuiolua_open(L);
 }

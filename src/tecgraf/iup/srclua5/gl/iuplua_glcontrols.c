@@ -39,7 +39,7 @@ int iupglcontrolslua_open(lua_State * L)
 }
 
 /* obligatory to use require"iupluaglcontrols" */
-int luaopen_iupluaglcontrols(lua_State* L)
+int luaopen_iuplua_glcontrols(lua_State* L)
 {
   return iupglcontrolslua_open(L);
 }

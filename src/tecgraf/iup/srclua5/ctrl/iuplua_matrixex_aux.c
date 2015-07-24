@@ -43,7 +43,7 @@ int iupmatrixexlua_open(lua_State* L)
 }
 
 /* obligatory to use require"iupluamatrixex" */
-int luaopen_iupluamatrixex(lua_State* L)
+int luaopen_iuplua_matrixex(lua_State* L)
 {
   return iupmatrixexlua_open(L);
 }

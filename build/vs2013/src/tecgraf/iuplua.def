@@ -4,4 +4,14 @@ EXPORTS
 	luaopen_iuplua_cd
 	luaopen_iuplua_imglib
 
-
+	luaopen_iuplua_gl
+	luaopen_iuplua_ole
+	luaopen_iuplua_scintilla
+	luaopen_iuplua_tuio
+	luaopen_iuplua_web
+	luaopen_iuplua_controls
+	luaopen_iuplua_matrixex
+	luaopen_iuplua_mglplot
+	luaopen_iuplua_plot
+	luaopen_iuplua_pplot
+	luaopen_iuplua_glcontrols

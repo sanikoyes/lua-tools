@@ -602,7 +602,7 @@ static int handle_luainit (lua_State *L) {
 /******************* IUP *********************/
 #ifdef USE_STATIC
 #ifdef IUPLUA_IMGLIB
-int luaopen_iupluaimglib(lua_State* L);
+int luaopen_iuplua_imglib(lua_State* L);
 #endif
 #endif
 
@@ -618,7 +618,7 @@ static void iuplua_openlibs (lua_State *L) {
   iuplua_open(L);
 
 #ifdef IUPLUA_IMGLIB
-  luaopen_iupluaimglib(L);
+  luaopen_iuplua_imglib(L);
 #endif
 #ifdef IUPLUA_TUIO
   iuptuiolua_open(L);
