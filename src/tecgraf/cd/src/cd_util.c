@@ -50,13 +50,13 @@ int* cdGetZoomTable(int dst_len, int src_len, int src_min)
    de imagens clientes. Pode ser usada para os eixos X e Y.
 
    canvas_size - tamanho do canvas (canvas->w, canvas->h)
-   cnv_rect_pos - posicao no canvas onde a regiao sera´ desenhada (x, y)
+   cnv_rect_pos - posicao no canvas onde a regiao sera?desenhada (x, y)
    cnv_rect_size - tamanho da regiao no canvas com zoom (w, h)
    img_rect_pos - posicao na imagem da regiao a ser desenhada (min)
    img_rect_size - tamanho da regiao na imagem (max-min+1)
 
    calcula o melhor tamanho a ser usado
-   retorna 0 se o retangulo resultante e´ nulo
+   retorna 0 se o retangulo resultante e?nulo
 */
 int cdCalcZoom(int canvas_size,
                int cnv_rect_pos, int cnv_rect_size, 

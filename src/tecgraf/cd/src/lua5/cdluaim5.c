@@ -7,7 +7,9 @@
 #include <string.h>
 #include <memory.h>
 
+#ifndef CD_NO_OLD_INTERFACE
 #define CD_NO_OLD_INTERFACE
+#endif
 
 #include <im.h>
 #include <im_image.h>
@@ -281,7 +283,7 @@ int cdluaim_open(lua_State *L)
   return 0;
 }
 
-int luaopen_cdluaim(lua_State *L)
+int luaopen_cdlua_im(lua_State *L)
 {
   return cdluaim_open(L);
 }

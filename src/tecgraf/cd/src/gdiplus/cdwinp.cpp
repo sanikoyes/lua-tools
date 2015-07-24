@@ -116,7 +116,7 @@ void cdwpKillCanvas(cdCtxCanvas* ctxcanvas)
 
   delete ctxcanvas->graphics;
 
-  /* ctxcanvas e´ liberado em cada driver */
+  /* ctxcanvas e?liberado em cada driver */
 }
 
 static int sAddTransform(cdCtxCanvas* ctxcanvas, Matrix &transformMatrix, const double* matrix)

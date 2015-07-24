@@ -41,7 +41,7 @@ int cdluapdf_open (lua_State *L)
   return 1;
 }
 
-int luaopen_cdluapdf(lua_State* L)
+int luaopen_cdlua_pdf(lua_State* L)
 {
   return cdluapdf_open(L);
 }

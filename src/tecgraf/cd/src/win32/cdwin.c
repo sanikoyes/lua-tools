@@ -2017,7 +2017,7 @@ static void cdputimagerectrgba(cdCtxCanvas* ctxcanvas, int width, int height, co
     
     BitBlt(hDCMem, 0, 0, ew, eh, ctxcanvas->hDC, ex, ey, SRCCOPY);
     
-    dib.w = ew;  /* neste caso o tamanho usado e´ o de destino */
+    dib.w = ew;  /* neste caso o tamanho usado e?o de destino */
     dib.h = eh;
     dib.type = 0;
     
@@ -2035,7 +2035,7 @@ static void cdputimagerectrgba(cdCtxCanvas* ctxcanvas, int width, int height, co
     
     StretchDIBits(ctxcanvas->hDC, 
                   ex, ey, ew, eh, 
-                  0, 0, ew, eh,   /* Nao tem zoom neste caso, pois e´ feito manualmente pela EncodeRGBA */
+                  0, 0, ew, eh,   /* Nao tem zoom neste caso, pois e?feito manualmente pela EncodeRGBA */
                   dib.bits, dib.bmi, DIB_RGB_COLORS, ctxcanvas->RopBlt);
   }
 

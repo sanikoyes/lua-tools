@@ -1,0 +1,7 @@
+EXPORTS
+	luaopen_cdlua
+	luaopen_cdlua_im
+	luaopen_cdlua_gl
+	luaopen_cdlua_contextplus
+	luaopen_cdlua_pdf
+	luaopen_cdlua_cairo

@@ -102,7 +102,7 @@ static int cdluacairo_open (lua_State *L)
   return 1;
 }
 
-int luaopen_cdluacairo(lua_State* L)
+int luaopen_cdlua_cairo(lua_State* L)
 {
   return cdluacairo_open(L);
 }

@@ -365,7 +365,7 @@ void cdSimInitText(cdSimulation* simulation);
 void cdSimTextFT(cdCtxCanvas* ctxcanvas, int x, int y, const char *s, int len);
 int  cdSimFontFT(cdCtxCanvas* ctxcanvas, const char *type_face, int style, int size);
 void cdSimGetFontDimFT(cdCtxCanvas* ctxcanvas, int *max_width, int *height, int *ascent, int *descent);
-void cdSimGetTextSizeFT(cdCtxCanvas* ctxcanvas, const char *s, int len, int *width, int *height);
+void cdSimGetTextSizeFT(cdCtxCanvas* ctxcanvas, const wchar_t *s, int len, int *width, int *height);
 
 /* sim_primitives.c */
 

@@ -83,11 +83,6 @@ void luaL_openlib (lua_State *L, const char *libname, const luaL_Reg *l, int nup
 int luaL_register(lua_State *L, const char *n, const luaL_Reg *l) {
 	luaL_openlib(L,(n),(l),0);
 	return 0;
-//if (n == NULL)
-	//	luaL_setfuncs(L, f, 0);
-	//else
-	//	luaL_newlib(L, f);
-	//return 0;
 }
 #endif
 

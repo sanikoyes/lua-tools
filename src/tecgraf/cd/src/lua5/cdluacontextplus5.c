@@ -40,7 +40,7 @@ static int cdluacontextplus_open (lua_State *L)
   return 1;
 }
 
-int luaopen_cdluacontextplus(lua_State* L)
+int luaopen_cdlua_contextplus(lua_State* L)
 {
   return cdluacontextplus_open(L);
 }

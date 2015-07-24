@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tecgraf", "tecgraf", "{DEEA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imlua", "src\tecgraf\imlua.vcxproj", "{C7E0CBF0-C629-45BA-8E75-8CFDD2139B9A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cdlua", "src\tecgraf\cdlua.vcxproj", "{7E095D1B-F7BC-46BD-9731-02E758F9273D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -72,6 +74,10 @@ Global
 		{C7E0CBF0-C629-45BA-8E75-8CFDD2139B9A}.Debug|Win32.Build.0 = Debug|Win32
 		{C7E0CBF0-C629-45BA-8E75-8CFDD2139B9A}.Release|Win32.ActiveCfg = Release|Win32
 		{C7E0CBF0-C629-45BA-8E75-8CFDD2139B9A}.Release|Win32.Build.0 = Release|Win32
+		{7E095D1B-F7BC-46BD-9731-02E758F9273D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E095D1B-F7BC-46BD-9731-02E758F9273D}.Debug|Win32.Build.0 = Debug|Win32
+		{7E095D1B-F7BC-46BD-9731-02E758F9273D}.Release|Win32.ActiveCfg = Release|Win32
+		{7E095D1B-F7BC-46BD-9731-02E758F9273D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +93,6 @@ Global
 		{9B5DB862-43FE-446D-AB6C-075E7203091B} = {429B9D4C-AF98-42F0-8DDD-6A05C9972B98}
 		{DEEA8701-2761-46B3-A1FB-E3B2E3F9CA95} = {429B9D4C-AF98-42F0-8DDD-6A05C9972B98}
 		{C7E0CBF0-C629-45BA-8E75-8CFDD2139B9A} = {DEEA8701-2761-46B3-A1FB-E3B2E3F9CA95}
+		{7E095D1B-F7BC-46BD-9731-02E758F9273D} = {DEEA8701-2761-46B3-A1FB-E3B2E3F9CA95}
 	EndGlobalSection
 EndGlobal

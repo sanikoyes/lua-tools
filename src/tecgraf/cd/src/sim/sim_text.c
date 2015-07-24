@@ -15,6 +15,7 @@
 #include "cd_truetype.h"
 #include "sim.h"
 #include FT_GLYPH_H
+#include "../cairo/cdcairoctx.h"
 
 
 static int font_name_match(const char* map, const char* name)
@@ -145,7 +146,7 @@ void cdSimGetFontDimFT(cdCtxCanvas* ctxcanvas, int *max_width, int *height, int 
   if(height) *height= simulation->tt_text->max_height;
 }
 
-void cdSimGetTextSizeFT(cdCtxCanvas* ctxcanvas, const char *s, int len, int *width, int *height)
+void cdSimGetTextSizeFT(cdCtxCanvas* ctxcanvas, const wchar_t *s, int len, int *width, int *height)
 {
   cdCanvas* canvas = ((cdCtxCanvasBase*)ctxcanvas)->canvas;
   cdSimulation* simulation = canvas->simulation;
@@ -166,7 +167,7 @@ void cdSimGetTextSizeFT(cdCtxCanvas* ctxcanvas, const char *s, int len, int *wid
   while(i < len)
   {
     /* load glyph image into the slot (erase previous one) */
-    error = FT_Load_Char( face, (unsigned char)s[i], FT_LOAD_DEFAULT );
+    error = FT_Load_Char( face, s[i], FT_LOAD_DEFAULT );
     if (error) {i++; continue;}  /* ignore errors */
 
     w += slot->advance.x; 
@@ -320,7 +321,7 @@ static void simDrawTextBitmap(cdSimulation* simulation, FT_Bitmap* bitmap, int x
   simulation->canvas->use_matrix = old_use_matrix;
 }
 
-void simGetPenPos(cdCanvas* canvas, int x, int y, const char* s, int len, FT_Matrix *matrix, FT_Vector *pen)
+void simGetPenPos(cdCanvas* canvas, int x, int y, wchar_t* s, int len, FT_Matrix *matrix, FT_Vector *pen)
 {
   int ox = x, oy = y;
   int old_invert_yaxis = canvas->invert_yaxis;
@@ -385,6 +386,43 @@ void simGetPenPos(cdCanvas* canvas, int x, int y, const char* s, int len, FT_Mat
 
 }
 
+static unsigned short *utf8_ucs2(const char *str, int len) {
+
+	static unsigned short buf[4096];
+	//int i=0;
+	//#define putchar(a)     buff[i++]=(BYTE)a;
+	//
+	//for(int j=0;(DWORD)j<wcslen(wstrIn);j++)
+	//{
+	//ASSERT(i<vLen);
+	//WCHAR c=wstrIn[j];
+	//if (c < 0x80)
+	//{
+	//putchar (c);
+	//}
+	//else if (c < 0x800)
+	//{
+	//putchar (0xC0 | c>>6);
+	//putchar (0x80 | c & 0x3F);
+	//}
+	//else if (c < 0x10000)
+	//{
+	//putchar (0xE0 | c>>12);
+	//putchar (0x80 | c>>6 & 0x3F);
+	//putchar (0x80 | c & 0x3F);
+	//}
+	//else if (c < 0x200000)
+	//{
+	//putchar (0xF0 | c>>18);
+	//putchar (0x80 | c>>12 & 0x3F);
+	//putchar (0x80 | c>>6 & 0x3F);
+	//putchar (0x80 | c & 0x3F);
+	//}
+	//}
+}
+
+wchar_t* cdwpStringToUnicodeLen(const char* str, int *len, int utf8mode);
+
 void cdSimTextFT(cdCtxCanvas* ctxcanvas, int x, int y, const char* s, int len)
 {
   cdCanvas* canvas = ((cdCtxCanvasBase*)ctxcanvas)->canvas;
@@ -395,6 +433,8 @@ void cdSimTextFT(cdCtxCanvas* ctxcanvas, int x, int y, const char* s, int len)
   FT_Vector     pen;                    /* untransformed origin  */
   FT_Error      error;
   int i = 0;
+
+  wchar_t* wstr = cdwpStringToUnicodeLen(s, &len, ctxcanvas->utf8mode);
 
   if (!simulation->tt_text->face)
     return;
@@ -407,7 +447,7 @@ void cdSimTextFT(cdCtxCanvas* ctxcanvas, int x, int y, const char* s, int len)
     y = _cdInvertYAxis(canvas, y);   /* y is already inverted, invert back to cartesian space */
 
   /* move the reference point to the baseline-left */
-  simGetPenPos(simulation->canvas, x, y, s, len, &matrix, &pen);
+  simGetPenPos(simulation->canvas, x, y, wstr, len, &matrix, &pen);
 
   while(i<len)
   {
@@ -415,7 +455,7 @@ void cdSimTextFT(cdCtxCanvas* ctxcanvas, int x, int y, const char* s, int len)
     FT_Set_Transform(face, &matrix, &pen);
 
     /* load glyph image into the slot (erase previous one) */
-    error = FT_Load_Char(face, (unsigned char)s[i], FT_LOAD_RENDER);
+    error = FT_Load_Char(face, wstr[i], FT_LOAD_RENDER);
     if (error) {i++; continue;}  /* ignore errors */
 
     x = slot->bitmap_left;

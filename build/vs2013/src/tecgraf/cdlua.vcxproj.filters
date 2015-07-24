@@ -1,0 +1,2321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source files\cairo">
+      <UniqueIdentifier>{8496d676-93bb-4a6a-82e5-3bc56a50a8dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\drv">
+      <UniqueIdentifier>{a2909399-47f1-43e2-8f35-3072750f7cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2">
+      <UniqueIdentifier>{801ca4c6-161d-4c87-9725-ecd288f5dc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\autofit">
+      <UniqueIdentifier>{79d77b7d-c2f4-40ae-948e-429495963bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\base">
+      <UniqueIdentifier>{19ec86a2-aed1-4c75-b9da-89e2fa49eec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\bdf">
+      <UniqueIdentifier>{7af690db-0f0c-487b-b3c0-6e3d1dd8e1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\cache">
+      <UniqueIdentifier>{4187b16f-2e0d-44e0-a317-f1a1683d0551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\cff">
+      <UniqueIdentifier>{340fb3b0-69ca-484f-ba3e-d6ab03b8a2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\cid">
+      <UniqueIdentifier>{03add6d9-a8e2-4a02-9633-3077acfec478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\freetype">
+      <UniqueIdentifier>{3df23a85-71a3-460e-aab4-aead06074da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\freetype\config">
+      <UniqueIdentifier>{85192845-9b11-4275-a1d8-8581c8160314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\freetype\internal">
+      <UniqueIdentifier>{16824497-be60-4e8f-ac7c-9e818e2355ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\freetype\internal\services">
+      <UniqueIdentifier>{2202b770-924b-407e-9c21-6ef1419b3569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\gxvalid">
+      <UniqueIdentifier>{ca886b66-ea29-46a0-b10f-82310dffac22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\gzip">
+      <UniqueIdentifier>{f6d686d8-dc57-4dc8-8162-bcdfcd8aac5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\lzw">
+      <UniqueIdentifier>{989772a3-b32f-4335-964c-7d85e529985d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\otvalid">
+      <UniqueIdentifier>{c7e28b37-c8ad-4330-9b6b-424ba30ba37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\pcf">
+      <UniqueIdentifier>{52730c92-4f05-4927-9bfb-3010e2992a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\pfr">
+      <UniqueIdentifier>{a0d45345-57ef-4c94-915e-da88d357cec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\psaux">
+      <UniqueIdentifier>{0f2d4766-4289-4e6d-a9c1-8caac68a69d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\pshinter">
+      <UniqueIdentifier>{6f0f5c9c-084c-4985-a075-c2c3e5a8b714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\psnames">
+      <UniqueIdentifier>{62ec5fa2-82ee-4584-b865-c1913902a5fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\raster">
+      <UniqueIdentifier>{10d88ec5-4185-471a-9194-a7192ab86de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\sfnt">
+      <UniqueIdentifier>{7b61f34c-944d-40e6-92bc-edfa5f215d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\smooth">
+      <UniqueIdentifier>{03961170-5b71-40cf-8c45-319258036b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\truetype">
+      <UniqueIdentifier>{8edd6872-2961-40db-adfc-0df3353113b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\type1">
+      <UniqueIdentifier>{6c27189e-02bb-47da-86db-f67fe56e0f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\type42">
+      <UniqueIdentifier>{0e55a9ca-b8a7-4f27-9df5-feb5c457db94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\freetype2\winfonts">
+      <UniqueIdentifier>{740a671a-a6a9-4d3d-8892-fea16d5e72fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ftgl">
+      <UniqueIdentifier>{f0c4a354-26ed-47a3-8940-5bc08698dd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ftgl\FTFont">
+      <UniqueIdentifier>{bdf2b9e0-cb5d-4ae0-ac5e-9e2e22611cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ftgl\FTGL">
+      <UniqueIdentifier>{296f088d-9567-4af5-9490-337e95aec848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ftgl\FTGlyph">
+      <UniqueIdentifier>{63a06e04-4ddb-4cf0-8e7a-a69d9942cd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ftgl\FTLayout">
+      <UniqueIdentifier>{89a279e5-ca04-4877-8c7b-d447b39899eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\gdiplus">
+      <UniqueIdentifier>{3ed6e481-4b0b-476b-bf4c-bcec50d47494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\gdk">
+      <UniqueIdentifier>{d5d60b12-2bbd-4653-b170-31149399e485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\intcgm">
+      <UniqueIdentifier>{24db8df1-cc10-4252-bdef-16a8788bf214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\lua5">
+      <UniqueIdentifier>{9ec9db7e-23fe-40e8-ae95-afb6d78ddab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\pdflib">
+      <UniqueIdentifier>{70ebc568-a9db-48a3-afa9-bce12c135b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\pdflib\font">
+      <UniqueIdentifier>{b6985f97-c992-420e-9e85-6e0b5546c3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\pdflib\pdcore">
+      <UniqueIdentifier>{3d76b880-8999-4598-bd40-8d4cdd7523c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\pdflib\pdflib">
+      <UniqueIdentifier>{5114578d-6668-43a8-8760-755e099bbb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\sim">
+      <UniqueIdentifier>{39766d39-3eda-4759-9666-ec985e9e0b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\svg">
+      <UniqueIdentifier>{627b9abb-9974-473a-91c9-5bda4ab1aaf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\win32">
+      <UniqueIdentifier>{698b2d54-b05b-4b70-813a-a378dcd12ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\zlib">
+      <UniqueIdentifier>{3f198961-a93d-41de-9d89-a61aed389b90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cdlua.def">
+      <Filter>Source files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\tecgraf\cd\src\zlib\zlib.def">
+      <Filter>Source files\zlib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairo.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairodbuf.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoemf.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoimg.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoirgb.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcaironative_gdk.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcaironative_win32.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairopdf.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoplus.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoprn_win32.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairops.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairosvg.c">
+      <Filter>Source files\cairo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cd0emf.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cd0prn.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cd0wmf.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdcgm.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cddebug.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cddgn.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cddxf.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdgl.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdirgb.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdmf.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdpdf.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdpicture.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdps.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cgm.c">
+      <Filter>Source files\drv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afhints.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afindic.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aflatin.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afloader.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afmodule.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afpic.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afwarp.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afangles.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afcjk.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afdummy.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afglobal.c">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\basepic.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftadvanc.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftapi.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftbbox.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftbdf.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftbitmap.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftcalc.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftcid.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftdbgmem.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftdebug.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftfstype.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftgasp.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftgloadr.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftglyph.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftgxval.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftinit.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftlcdfil.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftmm.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftobjs.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftotval.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftoutln.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftpatent.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftpfr.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftpic.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftrfork.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftsnames.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftstream.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftstroke.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftsynth.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftsystem.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\fttrigon.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\fttype1.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftutil.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftwinfnt.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftxf86.c">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdfdrivr.c">
+      <Filter>Source files\freetype2\bdf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdflib.c">
+      <Filter>Source files\freetype2\bdf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcbasic.c">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftccache.c">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftccmap.c">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcglyph.c">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcimage.c">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcmanag.c">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcmru.c">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcsbits.c">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffcmap.c">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffdrivr.c">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffgload.c">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffload.c">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffobjs.c">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffparse.c">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffpic.c">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidgload.c">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidload.c">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidobjs.c">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidparse.c">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidriver.c">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort0.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort1.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort2.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort4.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort5.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx0.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx1.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx2.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx4.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx5.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvopbd.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvprop.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvtrak.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvbsln.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvcommn.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvfeat.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvfgen.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvjust.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvkern.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvlcar.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmod.c">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\lzw\ftlzw.c">
+      <Filter>Source files\freetype2\lzw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvbase.c">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvcommn.c">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvgdef.c">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvgpos.c">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvgsub.c">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvjstf.c">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvmath.c">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvmod.c">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfdrivr.c">
+      <Filter>Source files\freetype2\pcf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfread.c">
+      <Filter>Source files\freetype2\pcf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfutil.c">
+      <Filter>Source files\freetype2\pcf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrcmap.c">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrdrivr.c">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrgload.c">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrload.c">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrobjs.c">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrsbit.c">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\afmparse.c">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psauxmod.c">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psconv.c">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psobjs.c">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\t1cmap.c">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\t1decode.c">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshalgo.c">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshglob.c">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshmod.c">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshpic.c">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshrec.c">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\psmodule.c">
+      <Filter>Source files\freetype2\psnames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\pspic.c">
+      <Filter>Source files\freetype2\psnames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftraster.c">
+      <Filter>Source files\freetype2\raster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftrend1.c">
+      <Filter>Source files\freetype2\raster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\rastpic.c">
+      <Filter>Source files\freetype2\raster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttload.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttmtx.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttpost.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttsbit.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfdriver.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfntpic.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfobjs.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttbdf.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttcmap.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttkern.c">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftgrays.c">
+      <Filter>Source files\freetype2\smooth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftsmooth.c">
+      <Filter>Source files\freetype2\smooth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftspic.c">
+      <Filter>Source files\freetype2\smooth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttdriver.c">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttgload.c">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttgxvar.c">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttinterp.c">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttobjs.c">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttpic.c">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttpload.c">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1afm.c">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1driver.c">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1gload.c">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1load.c">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1objs.c">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1parse.c">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42drivr.c">
+      <Filter>Source files\freetype2\type42</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42objs.c">
+      <Filter>Source files\freetype2\type42</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42parse.c">
+      <Filter>Source files\freetype2\type42</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\winfonts\winfnt.c">
+      <Filter>Source files\freetype2\winfonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTBitmapFont.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTBufferFont.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTExtrudeFont.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTFont.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTFontGlue.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTOutlineFont.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTPixmapFont.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTPolygonFont.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTTextureFont.cpp">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTBitmapGlyph.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTBufferGlyph.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTExtrudeGlyph.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTGlyph.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTGlyphGlue.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTOutlineGlyph.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTPixmapGlyph.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTPolygonGlyph.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTTextureGlyph.cpp">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTLayout.cpp">
+      <Filter>Source files\ftgl\FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTLayoutGlue.cpp">
+      <Filter>Source files\ftgl\FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTSimpleLayout.cpp">
+      <Filter>Source files\ftgl\FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTBuffer.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTCharmap.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTContour.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFace.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyphContainer.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLibrary.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTPoint.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTSize.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTVectoriser.cpp">
+      <Filter>Source files\ftgl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwclpp.cpp">
+      <Filter>Source files\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwdbufp.cpp">
+      <Filter>Source files\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwemfp.cpp">
+      <Filter>Source files\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwgdiplus.c">
+      <Filter>Source files\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwimgp.cpp">
+      <Filter>Source files\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwinp.cpp">
+      <Filter>Source files\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwnativep.cpp">
+      <Filter>Source files\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwprnp.cpp">
+      <Filter>Source files\gdiplus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdk.c">
+      <Filter>Source files\gdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdkclp.c">
+      <Filter>Source files\gdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdkdbuf.c">
+      <Filter>Source files\gdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdkimg.c">
+      <Filter>Source files\gdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdknative.c">
+      <Filter>Source files\gdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cd_intcgm.c">
+      <Filter>Source files\intcgm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_bin_get.c">
+      <Filter>Source files\intcgm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_bin_parse.c">
+      <Filter>Source files\intcgm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_list.c">
+      <Filter>Source files\intcgm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_play.c">
+      <Filter>Source files\intcgm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_sism.c">
+      <Filter>Source files\intcgm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_txt_get.c">
+      <Filter>Source files\intcgm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_txt_parse.c">
+      <Filter>Source files\intcgm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_cid.c">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_corefont.c">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_font.c">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_hostfont.c">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_pdffont.c">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_truetype.c">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_type1.c">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_ebcdic.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_encoding.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_file.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_geom.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_md5.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_optparse.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_output.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_resource.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scan.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scope.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_string.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_unicode.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_util.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_xmp.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_aes.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_aescbc.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_arc4.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_chartabs.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_contain.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_core.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_crypt.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_ctype.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_digsig.c">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_font.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_gif.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_gstate.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_hyper.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icc.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icclib.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_image.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_jpeg.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_jpx.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_kerning.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_layer.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_mbox.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_object.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_opi.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_page.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_params.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_pattern.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_pdi.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_pfm.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_photoshp.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_png.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_shading.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_subsett.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_table.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_tagged.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_template.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_text.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_textflow.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_tiff.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_truetype.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_type1.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_type3.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_util.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_xgstate.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_xmp.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\pdflib.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_3d.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_actions.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_afm.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_annots.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_block.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_bmp.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_ccitt.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_cid.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_color.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_document.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_draw.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_encoding.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_fields.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_filter.c">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\cd_truetype.c">
+      <Filter>Source files\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\cdfontex.c">
+      <Filter>Source files\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\sim.c">
+      <Filter>Source files\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\sim_linepolyfill.c">
+      <Filter>Source files\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\sim_primitives.c">
+      <Filter>Source files\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\sim_text.c">
+      <Filter>Source files\sim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\svg\base64.c">
+      <Filter>Source files\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\svg\cdsvg.c">
+      <Filter>Source files\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\svg\lodepng.c">
+      <Filter>Source files\svg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwclp.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwdbuf.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwdib.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwemf.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwimg.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwin.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwnative.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwprn.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwwmf.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\wmf_emf.c">
+      <Filter>Source files\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\wdhdcpy.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_active.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_attributes.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_bitmap.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_image.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_primitives.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_text.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_util.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_vectortext.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\rgb2map.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\wd.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\adler32.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\compress.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\crc32.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\deflate.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzclose.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzlib.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzread.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzwrite.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\infback.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\inffast.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\inflate.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\inftrees.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\trees.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\uncompr.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\zutil.c">
+      <Filter>Source files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gzip\ftgzip.c">
+      <Filter>Source files\freetype2\gzip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdlua5.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdlua5_active.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdlua5_canvas.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdlua5ctx.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluacairo5.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluacontextplus5.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluagl5.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluaim5.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluapdf5.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdvoid5.c">
+      <Filter>Source files\lua5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoctx.h">
+      <Filter>Source files\cairo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\drv\cgm.h">
+      <Filter>Source files\drv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\ft2build.h">
+      <Filter>Source files\freetype2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afglobal.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afhints.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afindic.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aflatin.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aflatin2.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afloader.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afmodule.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afpic.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aftypes.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afwarp.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afangles.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afcjk.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afdummy.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aferrors.h">
+      <Filter>Source files\freetype2\autofit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\basepic.h">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftbase.h">
+      <Filter>Source files\freetype2\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdf.h">
+      <Filter>Source files\freetype2\bdf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdfdrivr.h">
+      <Filter>Source files\freetype2\bdf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdferror.h">
+      <Filter>Source files\freetype2\bdf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftccache.h">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftccback.h">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcerror.h">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcglyph.h">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcimage.h">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcmanag.h">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcmru.h">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcsbits.h">
+      <Filter>Source files\freetype2\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffcmap.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffdrivr.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cfferrs.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffgload.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffload.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffobjs.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffparse.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffpic.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cfftoken.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cfftypes.h">
+      <Filter>Source files\freetype2\cff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\ciderrs.h">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidgload.h">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidload.h">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidobjs.h">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidparse.h">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidriver.h">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidtoken.h">
+      <Filter>Source files\freetype2\cid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\freetype.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftadvanc.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftbbox.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftbdf.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftbitmap.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftbzip2.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftcache.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftchapters.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftcid.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\fterrdef.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\fterrors.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftgasp.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftglyph.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftgxval.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftgzip.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftimage.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftincrem.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftlcdfil.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftlist.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftlzw.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftmac.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftmm.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftmodapi.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftmoderr.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftotval.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftoutln.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftpfr.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftrender.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftsizes.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftsnames.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftstroke.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftsynth.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftsystem.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\fttrigon.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\fttypes.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftwinfnt.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftxf86.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\t1tables.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ttnameid.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\tttables.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\tttags.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ttunpat.h">
+      <Filter>Source files\freetype2\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftconfig.h">
+      <Filter>Source files\freetype2\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftheader.h">
+      <Filter>Source files\freetype2\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftmodule.h">
+      <Filter>Source files\freetype2\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftoption.h">
+      <Filter>Source files\freetype2\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftstdlib.h">
+      <Filter>Source files\freetype2\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\autohint.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftcalc.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftdebug.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftdriver.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftgloadr.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftmemory.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftobjs.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftpic.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftrfork.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftserv.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftstream.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\fttrace.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftvalid.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\internal.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\pcftypes.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\psaux.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\pshints.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\sfnt.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\t1types.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\tttypes.h">
+      <Filter>Source files\freetype2\freetype\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svbdf.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svcid.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svgldict.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svgxval.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svkern.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svmm.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svotval.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svpfr.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svpostnm.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svpscmap.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svpsinfo.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svsfnt.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svttcmap.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svtteng.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svttglyf.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svwinfnt.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svxf86nm.h">
+      <Filter>Source files\freetype2\freetype\internal\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmod.h">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort.h">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx.h">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvalid.h">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvcommn.h">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxverror.h">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvfeat.h">
+      <Filter>Source files\freetype2\gxvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\lzw\ftzopen.h">
+      <Filter>Source files\freetype2\lzw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvalid.h">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvcommn.h">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otverror.h">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvgpos.h">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvmod.h">
+      <Filter>Source files\freetype2\otvalid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcf.h">
+      <Filter>Source files\freetype2\pcf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfdrivr.h">
+      <Filter>Source files\freetype2\pcf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcferror.h">
+      <Filter>Source files\freetype2\pcf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfread.h">
+      <Filter>Source files\freetype2\pcf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfutil.h">
+      <Filter>Source files\freetype2\pcf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrcmap.h">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrdrivr.h">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrerror.h">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrgload.h">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrload.h">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrobjs.h">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrsbit.h">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrtypes.h">
+      <Filter>Source files\freetype2\pfr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\afmparse.h">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psauxerr.h">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psauxmod.h">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psconv.h">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psobjs.h">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\t1cmap.h">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\t1decode.h">
+      <Filter>Source files\freetype2\psaux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshalgo.h">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshglob.h">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshmod.h">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshnterr.h">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshpic.h">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshrec.h">
+      <Filter>Source files\freetype2\pshinter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\psmodule.h">
+      <Filter>Source files\freetype2\psnames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\psnamerr.h">
+      <Filter>Source files\freetype2\psnames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\pspic.h">
+      <Filter>Source files\freetype2\psnames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\pstables.h">
+      <Filter>Source files\freetype2\psnames</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftmisc.h">
+      <Filter>Source files\freetype2\raster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftraster.h">
+      <Filter>Source files\freetype2\raster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftrend1.h">
+      <Filter>Source files\freetype2\raster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\rasterrs.h">
+      <Filter>Source files\freetype2\raster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\rastpic.h">
+      <Filter>Source files\freetype2\raster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttload.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttmtx.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttpost.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttsbit.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfdriver.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sferrors.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfntpic.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfobjs.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttbdf.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttcmap.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttcmapc.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttkern.h">
+      <Filter>Source files\freetype2\sfnt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftgrays.h">
+      <Filter>Source files\freetype2\smooth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftsmerrs.h">
+      <Filter>Source files\freetype2\smooth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftsmooth.h">
+      <Filter>Source files\freetype2\smooth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftspic.h">
+      <Filter>Source files\freetype2\smooth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttdriver.h">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\tterrors.h">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttgload.h">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttgxvar.h">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttinterp.h">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttobjs.h">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttpic.h">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttpload.h">
+      <Filter>Source files\freetype2\truetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1afm.h">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1driver.h">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1errors.h">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1gload.h">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1load.h">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1objs.h">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1parse.h">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1tokens.h">
+      <Filter>Source files\freetype2\type1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42drivr.h">
+      <Filter>Source files\freetype2\type42</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42error.h">
+      <Filter>Source files\freetype2\type42</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42objs.h">
+      <Filter>Source files\freetype2\type42</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42parse.h">
+      <Filter>Source files\freetype2\type42</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42types.h">
+      <Filter>Source files\freetype2\type42</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\winfonts\fnterrs.h">
+      <Filter>Source files\freetype2\winfonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\winfonts\winfnt.h">
+      <Filter>Source files\freetype2\winfonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTBitmapFontImpl.h">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTBufferFontImpl.h">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTExtrudeFontImpl.h">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTFontImpl.h">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTOutlineFontImpl.h">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTPixmapFontImpl.h">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTPolygonFontImpl.h">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTTextureFontImpl.h">
+      <Filter>Source files\ftgl\FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTPolyGlyph.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTSimpleLayout.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTTextureGlyph.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBBox.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBitmapGlyph.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBuffer.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBufferFont.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBufferGlyph.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTExtrdGlyph.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTFont.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\ftgl.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLBitmapFont.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLExtrdFont.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLOutlineFont.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLPixmapFont.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLPolygonFont.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLTextureFont.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGlyph.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTLayout.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTOutlineGlyph.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTPixmapGlyph.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTPoint.h">
+      <Filter>Source files\ftgl\FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTBitmapGlyphImpl.h">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTBufferGlyphImpl.h">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTExtrudeGlyphImpl.h">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTGlyphImpl.h">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTOutlineGlyphImpl.h">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTPixmapGlyphImpl.h">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTPolygonGlyphImpl.h">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTTextureGlyphImpl.h">
+      <Filter>Source files\ftgl\FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTLayoutImpl.h">
+      <Filter>Source files\ftgl\FTLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTSimpleLayoutImpl.h">
+      <Filter>Source files\ftgl\FTLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\config.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTCharmap.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTCharToGlyphIndexMap.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTContour.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFace.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyphContainer.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTInternals.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLibrary.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTList.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTSize.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTUnicode.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTVector.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTVectoriser.h">
+      <Filter>Source files\ftgl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwinp.h">
+      <Filter>Source files\gdiplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdk.h">
+      <Filter>Source files\gdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_bin_get.h">
+      <Filter>Source files\intcgm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_list.h">
+      <Filter>Source files\intcgm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_play.h">
+      <Filter>Source files\intcgm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_txt_get.h">
+      <Filter>Source files\intcgm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_types.h">
+      <Filter>Source files\intcgm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_cid.h">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_corefont.h">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_font.h">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_generr.h">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_pdffont.h">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_truetype.h">
+      <Filter>Source files\pdflib\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_ebcdic.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_encoding.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_exports.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_file.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_generr.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_geom.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_md5.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_optparse.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_output.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_prefix.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_pstok.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_resource.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scan.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scantok.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scope.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_strconst.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_string.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_unicode.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_util.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_xmp.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_aes.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_aeslocal.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_arc4.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_chartabs.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_classic.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_config.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_contain.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_core.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_crypt.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_ctype.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_digsig.h">
+      <Filter>Source files\pdflib\pdcore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_font.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_generr.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_hkscmyk.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_hkslab.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icc.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icc9809.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icclib.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_image.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_intern.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_keyconn.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_layer.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_page.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_pantlab.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_params.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_tagged.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\pdflib.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_color.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_defopt.h">
+      <Filter>Source files\pdflib\pdflib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\sim\cd_truetype.h">
+      <Filter>Source files\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\sim\sim.h">
+      <Filter>Source files\sim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\svg\base64.h">
+      <Filter>Source files\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\svg\lodepng.h">
+      <Filter>Source files\svg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwin.h">
+      <Filter>Source files\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\crc32.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\deflate.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzguts.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\inffast.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\inffixed.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\inflate.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\inftrees.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\trees.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\zconf.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\zlib.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\zutil.h">
+      <Filter>Source files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdvoid5.h">
+      <Filter>Source files\lua5</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\zlib1.rc">
+      <Filter>Source files\zlib</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

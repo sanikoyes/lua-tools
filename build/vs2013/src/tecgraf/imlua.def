@@ -7,3 +7,8 @@ EXPORTS
 	luaopen_imlua_avi
 	luaopen_imlua_process
 	luaopen_imlua_process_omp
+
+	imlua_checkimage
+	imlua_pushimage
+	imImageCreate
+	imImageIsBitmap

@@ -41,7 +41,7 @@ int cdluagl_open (lua_State *L)
   return 1;
 }
 
-int luaopen_cdluagl(lua_State* L)
+int luaopen_cdlua_gl(lua_State* L)
 {
   return cdluagl_open(L);
 }
