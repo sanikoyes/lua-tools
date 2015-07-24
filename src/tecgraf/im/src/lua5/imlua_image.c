@@ -1510,7 +1510,7 @@ void imlua_open_image (lua_State *L)
 #include "im_image.loh"
 #else
 #ifdef IMLUA_USELH
-#include "im_image.lh"
+#include "lh/im_image.lh"
 #else
   luaL_dofile(L, "im_image.lua");
 #endif

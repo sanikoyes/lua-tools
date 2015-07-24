@@ -1,0 +1,9 @@
+EXPORTS
+	luaopen_imlua
+	luaopen_imlua_jp2
+	luaopen_imlua_wmv
+	luaopen_imlua_fftw
+	luaopen_imlua_capture
+	luaopen_imlua_avi
+	luaopen_imlua_process
+	luaopen_imlua_process_omp
