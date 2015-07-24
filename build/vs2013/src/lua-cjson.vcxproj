@@ -17,7 +17,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\src\lua-cjson\lua-cjson.def" />
-    <None Include="..\..\..\src\luaexpat\src\lxp.def" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\src\lua-cjson\fpconv.h" />

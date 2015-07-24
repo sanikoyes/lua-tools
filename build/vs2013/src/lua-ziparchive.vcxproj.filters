@@ -82,15 +82,6 @@
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\ZipEntryFile.cpp">
       <Filter>Source files\Misc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\lua-ziparchive\Misc\trio\trio.c">
-      <Filter>Source files\Misc\trio</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\lua-ziparchive\Misc\trio\trionan.c">
-      <Filter>Source files\Misc\trio</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\lua-ziparchive\Misc\trio\triostr.c">
-      <Filter>Source files\Misc\trio</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\md5\md5c.c">
       <Filter>Source files\Misc\md5</Filter>
     </ClCompile>
@@ -406,6 +397,15 @@
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\liblzma\liblzma\simple\x86.c">
       <Filter>Source files\Misc\liblzma\liblzma\simple</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\trio\trio.c">
+      <Filter>Source files\Misc\trio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\trio\trionan.c">
+      <Filter>Source files\Misc\trio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\trio\triostr.c">
+      <Filter>Source files\Misc\trio</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\AnsiString.h">
@@ -464,21 +464,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\ZipEntryFile.h">
       <Filter>Source files\Misc</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\trio.h">
-      <Filter>Source files\Misc\trio</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\triodef.h">
-      <Filter>Source files\Misc\trio</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\trionan.h">
-      <Filter>Source files\Misc\trio</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\triop.h">
-      <Filter>Source files\Misc\trio</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\triostr.h">
-      <Filter>Source files\Misc\trio</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\md5\md5.h">
       <Filter>Source files\Misc\md5</Filter>
@@ -728,6 +713,21 @@
     </ClInclude>
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\liblzma\liblzma\simple\simple_private.h">
       <Filter>Source files\Misc\liblzma\liblzma\simple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\trio.h">
+      <Filter>Source files\Misc\trio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\triodef.h">
+      <Filter>Source files\Misc\trio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\trionan.h">
+      <Filter>Source files\Misc\trio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\triop.h">
+      <Filter>Source files\Misc\trio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\triostr.h">
+      <Filter>Source files\Misc\trio</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
