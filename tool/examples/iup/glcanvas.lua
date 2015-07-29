@@ -3,7 +3,7 @@
 -- This example uses gllua binding of OpenGL to Lua.
 
 require("iuplua")
-require("iupluagl")
+require("iuplua.gl")
 require("luagl")
 
 cnv = iup.glcanvas{buffer="DOUBLE", rastersize = "300x300"}

@@ -1,0 +1,58 @@
+#!/bin/bash
+
+# Include TEC_UNAME definitions
+source ./tec_uname
+
+echo ' '
+echo '  This script will install the Lua modules in the system'
+echo '  from the build directories or from the unpacked download.'
+echo '  It was tested in Ubuntu and in Fedora.'
+echo ' '
+echo '  Lua modules when installed do not have the "lib" prefix and'
+echo '  do not have the version number suffix.'
+echo ' '
+echo '  Must be run with "sudo" at the library folder, or install will fail:'
+echo '     sudo ./install_lua'
+echo ' '
+
+EchoDownloadTip()
+{
+  echo '  The downloaded package must already be unpacked in the current directory.'
+  echo '  Do NOT unpack different packages in the same directory.'
+  echo '  For example:'
+  echo '     mkdir luagl'
+  echo '     cd luagl'
+  echo '     tar -xpvzf ../luagl-X.X_Linux26g4_lib.tar.gz'
+  echo ' '
+}
+
+Copy_LuaModules_To_System()
+{
+  cp -fv $2$1*.so $TEC_LUA_LIB
+}
+
+Install_LuaModules()
+{
+  if [ -d lib/$TEC_UNAME/Lua$LUA_VER ]; then
+    echo '  Installing from build directory' lib/$TEC_UNAME/Lua$LUA_VER
+    echo ' '
+    Pause
+    Copy_LuaModules_To_System $1 lib/$TEC_UNAME/Lua$LUA_VER/
+  else
+    echo '  The directory' lib/$TEC_UNAME/Lua$LUA_VER/ 'was not found,'
+    echo '  so installing from unpacked download.'
+    echo ' '
+    EchoDownloadTip
+    Pause
+    Copy_LuaModules_To_System $1
+  fi
+}
+
+# From tec_uname script
+ComputeTecUname
+ComputeLuaVersion
+ComputeSystemPaths
+#PrintInfo
+
+mkdir -p $TEC_LUA_LIB
+Install_LuaModules luagl

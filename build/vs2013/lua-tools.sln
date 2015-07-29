@@ -34,6 +34,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cdlua", "src\tecgraf\cdlua.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iuplua", "src\tecgraf\iuplua.vcxproj", "{91073875-3E94-4DAF-83D6-CD8DA9985CA2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luagl", "src\tecgraf\luagl.vcxproj", "{E3C1AE69-2342-48AE-8844-EC3C288CC389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -84,6 +86,10 @@ Global
 		{91073875-3E94-4DAF-83D6-CD8DA9985CA2}.Debug|Win32.Build.0 = Debug|Win32
 		{91073875-3E94-4DAF-83D6-CD8DA9985CA2}.Release|Win32.ActiveCfg = Release|Win32
 		{91073875-3E94-4DAF-83D6-CD8DA9985CA2}.Release|Win32.Build.0 = Release|Win32
+		{E3C1AE69-2342-48AE-8844-EC3C288CC389}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3C1AE69-2342-48AE-8844-EC3C288CC389}.Debug|Win32.Build.0 = Debug|Win32
+		{E3C1AE69-2342-48AE-8844-EC3C288CC389}.Release|Win32.ActiveCfg = Release|Win32
+		{E3C1AE69-2342-48AE-8844-EC3C288CC389}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,5 +107,6 @@ Global
 		{C7E0CBF0-C629-45BA-8E75-8CFDD2139B9A} = {DEEA8701-2761-46B3-A1FB-E3B2E3F9CA95}
 		{7E095D1B-F7BC-46BD-9731-02E758F9273D} = {DEEA8701-2761-46B3-A1FB-E3B2E3F9CA95}
 		{91073875-3E94-4DAF-83D6-CD8DA9985CA2} = {DEEA8701-2761-46B3-A1FB-E3B2E3F9CA95}
+		{E3C1AE69-2342-48AE-8844-EC3C288CC389} = {DEEA8701-2761-46B3-A1FB-E3B2E3F9CA95}
 	EndGlobalSection
 EndGlobal

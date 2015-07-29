@@ -1,0 +1,3 @@
+EXPORTS
+	luaopen_luagl
+	luaopen_luagl_u

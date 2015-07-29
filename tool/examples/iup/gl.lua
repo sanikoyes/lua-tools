@@ -1,7 +1,7 @@
 require( "iuplua" )
-require( "iupluagl" )
+require( "iuplua.gl" )
 require( "luagl" )
-require( "luaglu" )
+require( "luagl.u" )
 
 canvas = iup.glcanvas{buffer="DOUBLE", rastersize = "640x480"}
 
