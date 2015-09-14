@@ -1,7 +1,7 @@
 require("iuplua")
-require("iupluagl")
+require("iuplua.gl")
 require("luagl")
-require("luaglu")
+require("luagl.u")
 require("imlua")
 
 --filename = [[C:\LUA\im-3.8.2_Win32_dllw4_lib\im-3.8.2_Examples\im\html\examples\flower.jpg]]

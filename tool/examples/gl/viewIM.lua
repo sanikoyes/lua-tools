@@ -1,5 +1,5 @@
 require("iuplua")
-require("iupluagl")
+require("iuplua.gl")
 require("luagl")
 require("imlua")
 

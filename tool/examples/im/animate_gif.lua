@@ -2,10 +2,10 @@
 
 require"imlua"
 require"cdlua"
-require"cdluaim"
+require"cdlua.im"
 require"iuplua"
-require"iupluacd"
-require"iupluaimglib"
+require"iuplua.cd"
+require"iuplua.imglib"
 
 anim={}
 

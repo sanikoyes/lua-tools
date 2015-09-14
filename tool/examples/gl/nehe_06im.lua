@@ -1,7 +1,7 @@
 require("iuplua")
-require("iupluagl")
+require("iuplua.gl")
 require("luagl")
-require("luaglu")
+require("luagl.u")
 require("imlua")
 
 iup.key_open()

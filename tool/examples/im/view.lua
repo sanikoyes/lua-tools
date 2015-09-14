@@ -1,8 +1,8 @@
 require"imlua"
 require"cdlua"
-require"cdluaim"
+require"cdlua.im"
 require"iuplua"
-require"iupluacd"
+require"iuplua.cd"
 
 
 function LoadImage(file_name)
@@ -126,7 +126,7 @@ function main(arg)
   local err
   
   -- Try to get a file name from the command line.
-  if (arg == nil or table.getn(arg) < 2) then
+  if (arg == nil or #arg < 2) then
     file_name, err = iup.GetFile(file_name)
     if err ~= 0 then
       return true

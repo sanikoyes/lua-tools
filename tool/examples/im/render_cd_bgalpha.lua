@@ -1,6 +1,6 @@
 require"imlua"
 require"cdlua"
-require"cdluaim"
+require"cdlua.im"
 
 local image = im.ImageCreate(500, 500, im.RGB, im.BYTE)
 image:AddAlpha()

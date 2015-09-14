@@ -1,3 +1,5 @@
+require "imlua"
+
 ifile = im.FileNew("1frame.avi", "AVI")
 ifile:SetInfo("CUSTOM")
 ifile:SetAttribute("FPS", im.FLOAT, {15}) -- Frames per second 

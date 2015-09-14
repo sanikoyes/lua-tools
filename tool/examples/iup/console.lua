@@ -132,7 +132,7 @@ end
 
 function console.do_string(cmd)
   console.print_command(cmd)
-  assert(loadstring(cmd))()
+  assert(load(cmd))()
 end
 
 function console.open_file()
