@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\config.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\executor.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fftwnd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_10.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_11.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_12.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_13.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_14.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_15.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_16.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_2.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_3.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_4.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_6.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_64.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_7.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_8.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fni_9.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_10.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_11.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_12.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_13.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_14.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_15.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_16.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_2.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_3.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_4.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_6.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_64.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_7.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_8.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\fn_9.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_10.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_16.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_2.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_3.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_4.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_6.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_64.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_7.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_8.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftwi_9.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_10.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_16.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_2.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_3.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_4.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_6.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_64.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_7.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_8.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\ftw_9.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\generic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\malloc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\planner.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\putils.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\rader.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\timer.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\twiddle.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\wisdom.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\fftw\wisdomio.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_attrib.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_bin.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_binfile.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_capture_dx.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_colorhsi.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_colormode.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_colorutil.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_compress.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_convertbitmap.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_convertcolor.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_convertopengl.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_converttype.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_counter.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_datatype.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_dib.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_dibxbitmap.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_file.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_filebuffer.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_fileraw.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_all.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_avi.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_bmp.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_gif.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_ico.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_jp2.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_jpeg.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_krn.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_led.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_pcx.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_pfm.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_png.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_pnm.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_ras.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_raw.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_sgi.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_tga.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_tiff.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_format_wmv.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_image.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_lib.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_lzo.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_palette.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_rgb2map.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_str.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\im_sysfile_win32.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\jas_binfile.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\canon\exif-mnote-data-canon.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\canon\mnote-canon-entry.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\canon\mnote-canon-tag.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-byte-order.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-content.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-data.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-entry.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-format.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-ifd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-loader.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-log.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-mem.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-mnote-data.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-tag.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-utils.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\fuji\exif-mnote-data-fuji.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\fuji\mnote-fuji-entry.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\fuji\mnote-fuji-tag.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\olympus\exif-mnote-data-olympus.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\olympus\mnote-olympus-entry.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\olympus\mnote-olympus-tag.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\pentax\exif-mnote-data-pentax.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\pentax\mnote-pentax-entry.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libexif\pentax\mnote-pentax-tag.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_cm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_debug.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_getopt.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_icc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_iccdata.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_image.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_init.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_malloc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_seq.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_stream.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_string.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_tmr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_tvp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\base\jas_version.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jp2\jp2_cod.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jp2\jp2_dec.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jp2\jp2_enc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_bs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_cs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_dec.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_enc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_math.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_mct.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_mqcod.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_mqdec.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_mqenc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_qmfb.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t1cod.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t1dec.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t1enc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t2cod.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t2dec.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t2enc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_tagtree.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_tsfb.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_util.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jaricom.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcapimin.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcapistd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcarith.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jccoefct.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jccolor.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcdctmgr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jchuff.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcinit.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcmainct.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcmarker.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcmaster.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcomapi.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcparam.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcprepct.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jcsample.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jctrans.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdapimin.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdapistd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdarith.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdatadst.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdatasrc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdcoefct.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdcolor.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jddctmgr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdhuff.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdinput.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdmainct.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdmarker.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdmaster.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdmerge.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdpostct.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdsample.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdtrans.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jerror.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jfdctflt.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jfdctfst.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jfdctint.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jidctflt.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jidctfst.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jidctint.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jmemmgr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jmemnobs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jquant1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jquant2.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jutils.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\liblzf\lzf_c.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\liblzf\lzf_d.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\png.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngerror.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngget.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngmem.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngpread.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngread.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngrio.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngrtran.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngrutil.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngset.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngtrans.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngwio.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngwrite.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngwtran.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libpng\pngwutil.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_aux.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_close.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_codec.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_color.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_compress.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_dir.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_dirinfo.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_dirread.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_dirwrite.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_dumpmode.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_error.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_extension.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_fax3.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_fax3sm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_flush.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_getimage.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_jpeg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_luv.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_lzw.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_next.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_ojpeg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_open.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_packbits.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_pixarlog.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_predict.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_print.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_read.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_strip.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_swab.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_thunder.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_tile.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_version.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_warning.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_write.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_zip.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_aux.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_avi.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_capture.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_convert.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_fftw.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_file.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_image.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_jp2.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_kernel.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_palette.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_process.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_util.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_wmv.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\minilzo\minilzo.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\old_im.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\old_imcolor.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\old_imresize.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_analyze.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_arithmetic_bin.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_arithmetic_un.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_canny.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_color.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_convolve.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_convolve_rank.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_distance.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_effects.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_fft.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_geometric.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_histogram.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_houghline.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_kernel.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_logic.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_morphology_bin.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_morphology_gray.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_point.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_process_counter.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_quantize.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_remotesens.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_render.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_resize.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_statistics.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_threshold.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\process\im_tonegamut.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\tiff_binfile.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\compress.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\crc32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\deflate.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\gzclose.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\gzlib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\gzread.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\infback.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\inffast.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\inflate.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\inftrees.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\trees.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\uncompr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\fftw\config.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\fftw\fftw-int.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\fftw\fftw.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\canon\exif-mnote-data-canon.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\canon\mnote-canon-entry.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\canon\mnote-canon-tag.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\config.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-byte-order.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-content.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-data-type.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-data.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-entry.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-format.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-ifd.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-loader.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-log.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-mem.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-mnote-data-priv.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-mnote-data.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-system.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-tag.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif-utils.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\exif.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\fuji\exif-mnote-data-fuji.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\fuji\mnote-fuji-entry.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\fuji\mnote-fuji-tag.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\i18n.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\olympus\exif-mnote-data-olympus.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\olympus\mnote-olympus-entry.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\olympus\mnote-olympus-tag.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\pentax\exif-mnote-data-pentax.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\pentax\mnote-pentax-entry.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\pentax\mnote-pentax-tag.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libexif\_stdint.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jasper.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_cm.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_config.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_debug.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_fix.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_getopt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_icc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_image.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_init.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_malloc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_math.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_seq.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_stream.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_string.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_tmr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_tvp.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_types.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jasper\jas_version.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jp2\jp2_cod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jp2\jp2_dec.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_bs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_cod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_cs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_dec.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_enc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_fix.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_flt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_math.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_mct.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_mqcod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_mqdec.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_mqenc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_qmfb.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t1cod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t1dec.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t1enc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t2cod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t2dec.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_t2enc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_tagtree.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_tsfb.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjasper\jpc\jpc_util.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jconfig.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jdct.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jerror.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jinclude.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jmemsys.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jmorecfg.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jpegint.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jpeglib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libjpeg\jversion.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\liblzf\lzf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\liblzf\lzfP.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libpng\png.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libpng\pngconf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libpng\pngdebug.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libpng\pnginfo.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libpng\pnglibconf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libpng\pngpriv.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libpng\pngstruct.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\t4.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tiff.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tiffconf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tiffio.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tiffiop.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tiffvers.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_config.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_dir.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_fax3.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\tif_predict.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\libtiff\uvcode.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_aux.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_image.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\lua5\imlua_palette.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\minilzo\lzoconf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\minilzo\lzodefs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\minilzo\minilzo.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\process\im_process_counter.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\crc32.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\deflate.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\gzguts.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\inflate.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\trees.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\zlib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\im\src\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\src\tecgraf\im\src\lua5\lh\im_convert.lh" />
+    <None Include="..\..\..\..\src\tecgraf\im\src\lua5\lh\im_fftw.lh" />
+    <None Include="..\..\..\..\src\tecgraf\im\src\lua5\lh\im_image.lh" />
+    <None Include="..\..\..\..\src\tecgraf\im\src\lua5\lh\im_process.lh" />
+    <None Include="..\..\..\..\src\tecgraf\im\src\lua5\lh\im_processconvert.lh" />
+    <None Include="..\..\..\..\src\tecgraf\im\src\zlib\zlib.def" />
+    <None Include="imlua.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\3rd\liblua.vcxproj">
+      <Project>{c2b445cf-0efa-43e9-bd78-b99637a2f078}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\src\tecgraf\im\src\zlib\zlib1.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C7E0CBF0-C629-45BA-8E75-8CFDD2139B9A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>lualib</RootNamespace>
+    <ProjectName>imlua</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\output\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\output\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>IMLUA_USELH;IM_PROCESS;WIN32;LUA_BUILD_AS_DLL;EXCLUDE_JPG_SUPPORT;EXCLUDE_MIF_SUPPORT;EXCLUDE_PNM_SUPPORT;EXCLUDE_RAS_SUPPORT;EXCLUDE_BMP_SUPPORT;EXCLUDE_PGX_SUPPORT;EXCLUDE_TIFF_SUPPORT;JAS_WIN_MSVC_BUILD;JAS_TYPES;JAS_GEO_OMIT_PRINTING_CODE;_DEBUG;_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\src\tecgraf\im\include;$(SolutionDir)..\..\src\tecgraf\im\src;$(SolutionDir)..\..\src\tecgraf\im\src\libexif;$(SolutionDir)..\..\src\tecgraf\im\src\libjasper;$(SolutionDir)..\..\src\tecgraf\im\src\zlib;$(SolutionDir)..\..\src\tecgraf\im\src\libtiff;$(SolutionDir)..\..\src\tecgraf\im\src\minilzo;$(SolutionDir)..\..\src\tecgraf\im\src\libpng;$(SolutionDir)..\..\src\tecgraf\im\src\libjpeg;$(SolutionDir)..\..\src\tecgraf\im\src\fftw;$(SolutionDir)..\..\src\tecgraf\im\src\liblzf;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)..\..\tool\bin\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>$(SolutionDir)src\tecgraf\imlua.def</ModuleDefinitionFile>
+      <AdditionalDependencies>quartz.lib;wmvcore.lib;vfw32.lib;strmiids.lib;strmbase.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>IMLUA_USELH;IM_PROCESS;WIN32;LUA_BUILD_AS_DLL;EXCLUDE_JPG_SUPPORT;EXCLUDE_MIF_SUPPORT;EXCLUDE_PNM_SUPPORT;EXCLUDE_RAS_SUPPORT;EXCLUDE_BMP_SUPPORT;EXCLUDE_PGX_SUPPORT;EXCLUDE_TIFF_SUPPORT;JAS_WIN_MSVC_BUILD;JAS_TYPES;JAS_GEO_OMIT_PRINTING_CODE;NDEBUG;_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\src\tecgraf\im\include;$(SolutionDir)..\..\src\tecgraf\im\src;$(SolutionDir)..\..\src\tecgraf\im\src\libexif;$(SolutionDir)..\..\src\tecgraf\im\src\libjasper;$(SolutionDir)..\..\src\tecgraf\im\src\zlib;$(SolutionDir)..\..\src\tecgraf\im\src\libtiff;$(SolutionDir)..\..\src\tecgraf\im\src\minilzo;$(SolutionDir)..\..\src\tecgraf\im\src\libpng;$(SolutionDir)..\..\src\tecgraf\im\src\libjpeg;$(SolutionDir)..\..\src\tecgraf\im\src\fftw;$(SolutionDir)..\..\src\tecgraf\im\src\liblzf;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(SolutionDir)..\..\tool\bin\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>$(SolutionDir)src\tecgraf\imlua.def</ModuleDefinitionFile>
+      <AdditionalDependencies>quartz.lib;wmvcore.lib;vfw32.lib;strmiids.lib;strmbase.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\3rd\liblua.vcxproj">
+      <Project>{c2b445cf-0efa-43e9-bd78-b99637a2f078}</Project>
+    </ProjectReference>
+    <ProjectReference Include="imlua.vcxproj">
+      <Project>{c7e0cbf0-c629-45ba-8e75-8cfdd2139b9a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\src\tecgraf\cd\src\zlib\zlib.def" />
+    <None Include="cdlua.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairo.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairodbuf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoemf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoimg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoirgb.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcaironative_gdk.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcaironative_win32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairopdf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoplus.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoprn_win32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairops.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairosvg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_active.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_attributes.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_bitmap.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_image.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_primitives.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_text.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_util.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\cd_vectortext.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cd0emf.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cd0prn.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cd0wmf.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdcgm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cddebug.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cddgn.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cddxf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdgl.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdirgb.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdmf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdpdf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdpicture.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cdps.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\drv\cgm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afangles.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afcjk.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afdummy.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afglobal.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afhints.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afindic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aflatin.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afloader.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afmodule.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afpic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afwarp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\basepic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftadvanc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftapi.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftbbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftbdf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftbitmap.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftcalc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftcid.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftdbgmem.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftdebug.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftfstype.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftgasp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftgloadr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftglyph.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftgxval.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftinit.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftlcdfil.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftmm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftobjs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftotval.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftoutln.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftpatent.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftpfr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftpic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftrfork.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftsnames.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftstream.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftstroke.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftsynth.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftsystem.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\fttrigon.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\fttype1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftutil.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftwinfnt.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftxf86.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdfdrivr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdflib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcbasic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftccache.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftccmap.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcglyph.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcimage.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcmanag.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcmru.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcsbits.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffcmap.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffdrivr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffgload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffobjs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffparse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffpic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidgload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidobjs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidparse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidriver.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvbsln.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvcommn.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvfeat.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvfgen.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvjust.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvkern.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvlcar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmod.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort0.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort2.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort4.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx0.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx2.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx4.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvopbd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvprop.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvtrak.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gzip\ftgzip.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\lzw\ftlzw.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvbase.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvcommn.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvgdef.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvgpos.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvgsub.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvjstf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvmath.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvmod.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfdrivr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfread.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfutil.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrcmap.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrdrivr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrgload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrobjs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrsbit.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\afmparse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psauxmod.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psconv.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psobjs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\t1cmap.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\t1decode.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshalgo.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshglob.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshmod.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshpic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshrec.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\psmodule.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\pspic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftraster.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftrend1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\rastpic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfdriver.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfntpic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfobjs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttbdf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttcmap.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttkern.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttmtx.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttpost.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttsbit.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftgrays.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftsmooth.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftspic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttdriver.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttgload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttgxvar.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttinterp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttobjs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttpic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttpload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1afm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1driver.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1gload.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1load.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1objs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1parse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42drivr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42objs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42parse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\freetype2\winfonts\winfnt.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTCharmap.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTContour.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFace.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTBitmapFont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTBufferFont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTExtrudeFont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTFont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTFontGlue.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTOutlineFont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTPixmapFont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTPolygonFont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTTextureFont.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyphContainer.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTBitmapGlyph.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTBufferGlyph.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTExtrudeGlyph.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTGlyph.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)ftglyph_cpp.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)ftglyph_cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTGlyphGlue.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTOutlineGlyph.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTPixmapGlyph.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTPolygonGlyph.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTTextureGlyph.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTLayout.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTLayoutGlue.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTSimpleLayout.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLibrary.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTPoint.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTSize.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTVectoriser.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwclpp.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwdbufp.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwemfp.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwgdiplus.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwimgp.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwinp.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwnativep.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwprnp.cpp" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdk.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdkclp.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdkdbuf.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdkimg.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdknative.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cd_intcgm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_bin_get.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_bin_parse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_list.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_play.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_sism.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_txt_get.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_txt_parse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdlua5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdlua5ctx.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdlua5_active.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdlua5_canvas.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluacairo5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluacontextplus5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluagl5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluaim5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdluapdf5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdvoid5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_cid.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_corefont.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_font.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_hostfont.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_pdffont.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_truetype.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_type1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_aes.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_aescbc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_arc4.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_chartabs.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_contain.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_core.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_crypt.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_ctype.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_digsig.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_ebcdic.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_encoding.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_file.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_geom.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_md5.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_optparse.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_output.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_resource.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scan.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scope.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_string.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_unicode.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_util.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_xmp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\pdflib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_3d.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_actions.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_afm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_annots.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_block.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_bmp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_ccitt.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_cid.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_color.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_document.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_draw.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_encoding.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_fields.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_filter.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_font.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_gif.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_gstate.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_hyper.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icc.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icclib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_image.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_jpeg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_jpx.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_kerning.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_layer.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_mbox.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_object.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_opi.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_page.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_params.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_pattern.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_pdi.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_pfm.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_photoshp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_png.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_shading.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_subsett.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_table.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_tagged.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_template.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_text.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_textflow.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_tiff.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_truetype.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_type1.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_type3.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_util.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_xgstate.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_xmp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\rgb2map.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\cdfontex.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\cd_truetype.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\sim.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\sim_linepolyfill.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\sim_primitives.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\sim\sim_text.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\svg\base64.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\svg\cdsvg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\svg\lodepng.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\wd.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\wdhdcpy.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwclp.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwdbuf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwdib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwemf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwimg.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwin.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwnative.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwprn.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwwmf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\win32\wmf_emf.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\adler32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\compress.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\crc32.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\deflate.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzclose.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzlib.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzread.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzwrite.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\infback.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\inffast.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\inflate.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\inftrees.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\trees.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\uncompr.c" />
+    <ClCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\zutil.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\cairo\cdcairoctx.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\drv\cgm.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afangles.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afcjk.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afdummy.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aferrors.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afglobal.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afhints.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afindic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aflatin.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aflatin2.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afloader.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afmodule.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afpic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\aftypes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\autofit\afwarp.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\basepic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\base\ftbase.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdfdrivr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\bdf\bdferror.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftccache.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftccback.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcerror.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcglyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcimage.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcmanag.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcmru.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cache\ftcsbits.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffcmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffdrivr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cfferrs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffgload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffobjs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffparse.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cffpic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cfftoken.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cff\cfftypes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\ciderrs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidgload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidobjs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidparse.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidriver.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\cid\cidtoken.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftconfig.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftheader.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftmodule.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftoption.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\config\ftstdlib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\freetype.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftadvanc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftbbox.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftbdf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftbitmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftbzip2.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftcache.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftchapters.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftcid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\fterrdef.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\fterrors.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftgasp.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftglyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftgxval.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftgzip.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftimage.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftincrem.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftlcdfil.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftlist.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftlzw.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftmac.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftmm.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftmodapi.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftmoderr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftotval.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftoutln.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftpfr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftrender.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftsizes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftsnames.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftstroke.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftsynth.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftsystem.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\fttrigon.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\fttypes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftwinfnt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ftxf86.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\autohint.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftcalc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftdebug.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftdriver.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftgloadr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftmemory.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftobjs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftpic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftrfork.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftserv.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftstream.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\fttrace.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\ftvalid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\internal.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\pcftypes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\psaux.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\pshints.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svbdf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svcid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svgldict.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svgxval.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svkern.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svmm.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svotval.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svpfr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svpostnm.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svpscmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svpsinfo.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svsfnt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svttcmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svtteng.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svttglyf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svwinfnt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\services\svxf86nm.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\sfnt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\t1types.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\internal\tttypes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\t1tables.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ttnameid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\tttables.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\tttags.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\freetype\ttunpat.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\ft2build.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvalid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvcommn.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxverror.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvfeat.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmort.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\gxvalid\gxvmorx.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\lzw\ftzopen.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvalid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvcommn.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otverror.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvgpos.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\otvalid\otvmod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfdrivr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcferror.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfread.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pcf\pcfutil.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrcmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrdrivr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrerror.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrgload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrobjs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrsbit.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pfr\pfrtypes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\afmparse.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psauxerr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psauxmod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psconv.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\psobjs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\t1cmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psaux\t1decode.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshalgo.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshglob.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshmod.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshnterr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshpic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\pshinter\pshrec.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\psmodule.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\psnamerr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\pspic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\psnames\pstables.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftmisc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftraster.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\ftrend1.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\rasterrs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\raster\rastpic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfdriver.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sferrors.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfntpic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\sfobjs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttbdf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttcmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttcmapc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttkern.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttmtx.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttpost.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\sfnt\ttsbit.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftgrays.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftsmerrs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftsmooth.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\smooth\ftspic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttdriver.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\tterrors.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttgload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttgxvar.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttinterp.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttobjs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttpic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\truetype\ttpload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1afm.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1driver.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1errors.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1gload.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1load.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1objs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1parse.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type1\t1tokens.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42drivr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42error.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42objs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42parse.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\type42\t42types.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\winfonts\fnterrs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\freetype2\winfonts\winfnt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\config.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTCharmap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTCharToGlyphIndexMap.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTContour.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFace.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTBitmapFontImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTBufferFontImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTExtrudeFontImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTFontImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTOutlineFontImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTPixmapFontImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTPolygonFontImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTFont\FTTextureFontImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyphContainer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTBitmapGlyphImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTBufferGlyphImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTExtrudeGlyphImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTGlyphImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTOutlineGlyphImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTPixmapGlyphImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTPolygonGlyphImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGlyph\FTTextureGlyphImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBBox.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBitmapGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBuffer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBufferFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTBufferGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTExtrdGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\ftgl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLBitmapFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLExtrdFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLOutlineFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLPixmapFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLPolygonFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGLTextureFont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTLayout.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTOutlineGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTPixmapGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTPoint.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTPolyGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTSimpleLayout.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTGL\FTTextureGlyph.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTInternals.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTLayoutImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLayout\FTSimpleLayoutImpl.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTLibrary.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTList.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTSize.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTUnicode.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTVector.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\ftgl\FTVectoriser.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\gdiplus\cdwinp.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\gdk\cdgdk.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_bin_get.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_list.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_play.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_txt_get.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\intcgm\cgm_types.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\lua5\cdvoid5.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_cid.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_corefont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_font.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_generr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_pdffont.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\font\ft_truetype.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_aes.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_aeslocal.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_arc4.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_chartabs.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_classic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_config.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_contain.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_core.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_crypt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_ctype.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_digsig.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_ebcdic.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_encoding.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_exports.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_file.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_generr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_geom.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_md5.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_optparse.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_output.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_prefix.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_pstok.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_resource.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scan.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scantok.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_scope.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_strconst.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_string.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_unicode.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_util.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdcore\pc_xmp.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\pdflib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_color.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_defopt.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_font.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_generr.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_hkscmyk.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_hkslab.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icc.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icc9809.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_icclib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_image.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_intern.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_keyconn.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_layer.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_page.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_pantlab.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_params.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\pdflib\pdflib\p_tagged.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\sim\cd_truetype.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\sim\sim.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\svg\base64.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\svg\lodepng.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\win32\cdwin.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\crc32.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\deflate.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\gzguts.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\inffast.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\inflate.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\trees.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\zconf.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\zlib.h" />
+    <ClInclude Include="..\..\..\..\src\tecgraf\cd\src\zlib\zutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\..\src\tecgraf\cd\src\zlib\zlib1.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7E095D1B-F7BC-46BD-9731-02E758F9273D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>lualib</RootNamespace>
+    <ProjectName>cdlua</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\output\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)..\output\obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\output\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>FTGL_LIBRARY_STATIC;WIN32;LUA_BUILD_AS_DLL;CD_NO_OLD_INTERFACE;FT2_BUILD_LIBRARY;UNICODE;_DEBUG;_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\src\tecgraf\im\include;$(SolutionDir)..\..\src\tecgraf\cd\include;$(SolutionDir)..\..\src\tecgraf\cd\src;$(SolutionDir)..\..\src\tecgraf\cd\src\freetype2;$(SolutionDir)..\..\src\tecgraf\cd\src\ftgl;$(SolutionDir)..\..\src\tecgraf\cd\src\sim;$(SolutionDir)..\..\src\tecgraf\cd\src\pdflib\font;$(SolutionDir)..\..\src\tecgraf\cd\src\pdflib\pdcore;$(SolutionDir)..\..\src\tecgraf\cd\src\pdflib\pdflib;$(SolutionDir)..\..\src\tecgraf\cd\src\zlib;$(SolutionDir)..\..\src\tecgraf\prebuilt\include;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\atk-1.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\cairo;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\gdk-pixbuf-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\glib-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\gtk-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\pango-1.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)..\..\tool\bin\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>$(SolutionDir)src\tecgraf\cdlua.def</ModuleDefinitionFile>
+      <AdditionalDependencies>gdiplus.lib;glu32.lib;opengl32.lib;atk-1.0.lib;cairo.lib;gdk_pixbuf-2.0.lib;gdk-win32-2.0.lib;glib-2.0.lib;gmodule-2.0.lib;gobject-2.0.lib;pango-1.0.lib;pangocairo-1.0.lib;pangoft2-1.0.lib;pangowin32-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\src\tecgraf\prebuilt\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>FTGL_LIBRARY_STATIC;WIN32;LUA_BUILD_AS_DLL;CD_NO_OLD_INTERFACE;FT2_BUILD_LIBRARY;UNICODE;NDEBUG;_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\src\tecgraf\im\include;$(SolutionDir)..\..\src\tecgraf\cd\include;$(SolutionDir)..\..\src\tecgraf\cd\src;$(SolutionDir)..\..\src\tecgraf\cd\src\freetype2;$(SolutionDir)..\..\src\tecgraf\cd\src\ftgl;$(SolutionDir)..\..\src\tecgraf\cd\src\sim;$(SolutionDir)..\..\src\tecgraf\cd\src\pdflib\font;$(SolutionDir)..\..\src\tecgraf\cd\src\pdflib\pdcore;$(SolutionDir)..\..\src\tecgraf\cd\src\pdflib\pdflib;$(SolutionDir)..\..\src\tecgraf\cd\src\zlib;$(SolutionDir)..\..\src\tecgraf\prebuilt\include;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\atk-1.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\cairo;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\gdk-pixbuf-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\glib-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\gtk-2.0;$(SolutionDir)..\..\src\tecgraf\prebuilt\include\pango-1.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(SolutionDir)..\..\tool\bin\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <ModuleDefinitionFile>$(SolutionDir)src\tecgraf\cdlua.def</ModuleDefinitionFile>
+      <AdditionalDependencies>gdiplus.lib;glu32.lib;opengl32.lib;atk-1.0.lib;cairo.lib;gdk_pixbuf-2.0.lib;gdk-win32-2.0.lib;glib-2.0.lib;gmodule-2.0.lib;gobject-2.0.lib;pango-1.0.lib;pangocairo-1.0.lib;pangoft2-1.0.lib;pangowin32-1.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\src\tecgraf\prebuilt\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

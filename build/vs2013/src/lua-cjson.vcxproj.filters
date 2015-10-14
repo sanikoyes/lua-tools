@@ -7,9 +7,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\src\luaexpat\src\lxp.def">
-      <Filter>Source files</Filter>
-    </None>
     <None Include="..\..\..\src\lua-cjson\lua-cjson.def">
       <Filter>Source files</Filter>
     </None>

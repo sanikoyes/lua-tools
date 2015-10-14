@@ -19,9 +19,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\lua-ziparchive\Misc\trio\trio.c" />
-    <ClCompile Include="..\..\..\..\lua-ziparchive\Misc\trio\trionan.c" />
-    <ClCompile Include="..\..\..\..\lua-ziparchive\Misc\trio\triostr.c" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\lziparchive.cpp" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\aes\aescrypt.c" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\aes\aeskey.c" />
@@ -341,15 +338,13 @@
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\MemFile.cpp" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\Misc.cpp" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\Misc_InternalPch.cpp" />
+    <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\trio\trio.c" />
+    <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\trio\trionan.c" />
+    <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\trio\triostr.c" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\ZipArchive.cpp" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\ZipEntryFile.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\trio.h" />
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\triodef.h" />
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\trionan.h" />
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\triop.h" />
-    <ClInclude Include="..\..\..\..\lua-ziparchive\Misc\trio\triostr.h" />
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\aes\aes.h" />
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\aes\aesopt.h" />
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\aes\aestab.h" />
@@ -452,6 +447,11 @@
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\Misc_InternalPch.h" />
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\OwnedPtr.h" />
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\stdint.vc.h" />
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\trio.h" />
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\triodef.h" />
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\trionan.h" />
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\triop.h" />
+    <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\trio\triostr.h" />
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\TypeTraits.h" />
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\ZipArchive.h" />
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\ZipEntryFile.h" />
