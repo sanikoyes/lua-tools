@@ -92,21 +92,30 @@ local __sheetMetatable = {
                         end
 
                         local colType = columnNode['@'].t
+                        -- 有时colType为nil 暂时这么处理
+                        if colType == nil then
+                            colType = 'str'
+                        end
 
                         local data
                         if columnNode['#'].v then
                             data = columnNode['#'].v[1]['#']
                             if colType == 's' then
+
                                 colType = __cellMetatable.STRING
                                 data = self.workbook.sharedStrings[tonumber(data) + 1]
                             elseif colType == 'str' then
+
                                 colType = __cellMetatable.STRING
                             elseif colType == 'b' then
+
                                 colType = __cellMetatable.BOOLEAN
                                 data = data == '1'
                             else
+
                                 local cellS = tonumber(columnNode['@'].s)
-                                local numberStyle = self.workbook.styles.cellXfs[cellS - 1].numFmtId
+                                local xfs = self.workbook.styles.cellXfs[cellS - 1]
+                                local numberStyle = xfs and xfs.numFmtId or nil
                                 if not numberStyle then
                                     numberStyle = 0
                                 end
@@ -131,15 +140,25 @@ local __sheetMetatable = {
                             columns[colNum] = {}
                         end
                         local cell = Cell(rowNum, colNum, data, colType, formula)
-                        table.insert(rows[rowNum], cell)
-                        table.insert(columns[colNum], cell)
-                        self.__cells[cellId] = cell
+                        if cell["value"] ~= nil then
+                            table.insert(rows[rowNum], cell)
+                            table.insert(columns[colNum], cell)
+                            self.__cells[cellId] = cell
+                        end
                     end
                 end
             end
         end
+        -- 清除空的列
+        for k,v in pairs(columns) do
+            if #v == 0 then
+                columns[k] = nil
+            end
+        end
+
         self.__rows = rows
         self.__cols = columns
+
         self.loaded = true
     end,
 
