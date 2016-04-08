@@ -16,10 +16,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\src\luamisc\iconv\iconv.cpp" />
     <ClCompile Include="..\..\..\src\luamisc\luamisc.cpp" />
     <ClCompile Include="..\..\..\src\luamisc\xxtea\xxtea.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\src\luamisc\iconv\iconv.h" />
     <ClInclude Include="..\..\..\src\luamisc\xxtea\xxtea.h" />
   </ItemGroup>
   <ItemGroup>
