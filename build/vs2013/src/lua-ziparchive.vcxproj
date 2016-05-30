@@ -343,6 +343,7 @@
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\trio\triostr.c" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\ZipArchive.cpp" />
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\ZipEntryFile.cpp" />
+    <ClCompile Include="..\..\..\src\lua-ziparchive\zlib\lua_zlib.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\src\lua-ziparchive\Misc\aes\aes.h" />

@@ -53,6 +53,9 @@
     <Filter Include="Source files\Misc\liblzma\liblzma\simple">
       <UniqueIdentifier>{df029542-e2ed-476b-a81f-0b8d9fd8fdcf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\zlib">
+      <UniqueIdentifier>{c9486a3b-906e-465f-b2e6-9a86364e2db3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\lua-ziparchive\lziparchive.cpp">
@@ -405,6 +408,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\src\lua-ziparchive\Misc\trio\triostr.c">
       <Filter>Source files\Misc\trio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\lua-ziparchive\zlib\lua_zlib.cpp">
+      <Filter>Source files\zlib</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

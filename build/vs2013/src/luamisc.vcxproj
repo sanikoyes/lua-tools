@@ -72,7 +72,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;LUA_BUILD_AS_DLL;_DEBUG;_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\3rd\expat-2.1.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\3rd\expat-2.1.0\lib;$(SolutionDir)..\..\3rd\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -90,7 +90,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;LUA_BUILD_AS_DLL;NDEBUG;_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\3rd\expat-2.1.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\3rd\lua-5.3.0\src;$(SolutionDir)..\..\3rd\expat-2.1.0\lib;$(SolutionDir)..\..\3rd\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
